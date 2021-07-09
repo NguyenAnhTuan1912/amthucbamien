@@ -218,13 +218,15 @@ article.khampha div.equal img#lo {
 }
 
 article.khampha div.more {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1903px;
     text-align: center;
 }
 
 article.khampha div.more div#m1 {
     width: 500px;
-    float: left;
     margin: -20px 67.166667px 0 67.166667px;
 }
 

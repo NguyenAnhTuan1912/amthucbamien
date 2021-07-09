@@ -24,7 +24,7 @@
     font-family: 'Roboto-Black';
 }
 
-body a, body p, body span, body li, body h3 {
+article.body a, article.body p, article.body span, article.body li, article.body h3 {
     font-family: 'Roboto-Regular';
 }
 

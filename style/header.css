@@ -116,6 +116,7 @@ article.main div.name_logo {
 
 article.main div.name_logo p#name {
     cursor: default;
+    font-family: 'Roboto-Black';
 }
 
 article.main div.name_logo p#lk {

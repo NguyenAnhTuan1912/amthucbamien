@@ -80,6 +80,10 @@ footer div.name p:first-child {
     font-style: normal;
 }
 
+footer div.name p:first-child span {
+    font-family: 'Roboto-Black';
+}
+
 footer div.name p {
     font-size: 30px;
     text-align: center;

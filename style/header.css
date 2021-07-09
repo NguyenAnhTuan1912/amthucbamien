@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url(../fonts/Franklin-Gothic-Heavy-Regular.ttf);
+}
+
+/**Phan header**/
+header {
+    display: none;
+}
+
+header.sticky {
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    z-index: 5;
+    box-shadow: 0px 0px 5px -2px black;
+}
+
+header.sticky a img#logo {
+    height: 86px;
+    margin-left: 46px;
+}
+
+header.sticky ul {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 46px;
+}
+
+header.sticky ul li {
+    position: relative;
+    list-style: none;
+    width: 95px;
+    font-weight: bold;
+}
+
+header.sticky ul li a {
+    color: #262626;
+    transition: 0.4s;
+}
+
+header.sticky ul li a:hover {
+    color: #FCD700;
+}
+
+/**Ket thuc phan header**/
+
+
+
+
+
+/**Trang dau tien cua trang chu**/
+article.main:before {
+    width: 1903px;
+    height: 979px;
+    content: '';
+    position: absolute;
+    background-color: #262626;
+    opacity: 50%;
+    z-index: 2;
+}
+
+article.main {
+    width: 1903px;
+    min-height: 979px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+}
+
+/**article.main div.bg:before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to top, #262626, transparent);
+    height: 150px;
+    z-index: 1000;
+    bottom: 0;
+    width: 100%;
+}**/
+
+article.main div.name_logo {
+    width: 100%;
+    font-size: 100px;
+    color: white;
+    z-index: 3;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+article.main div.name_logo p#name {
+    cursor: default;
+}
+
+article.main div.name_logo p#lk {
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article.main div.name_logo p#lk a {
+    color: white;
+    transition: all 0.4s;
+    margin: 0 10px;
+}
+
+article.main div.name_logo p#lk a:hover {
+    color: #FCD700;
+}
+
+
+article.main div.hd {
+    cursor: pointer;
+    color: white;
+    position: fixed;
+    bottom: 50px;
+    z-index: 2;
+}
+
+article.main div.hd p {
+    position: relative;
+    display: block;
+    font-family: 'Roboto-Regular';
+    text-align: center;
+}
+
+article.main div.hd p#ahv{
+    transform: translateY(-10px);
+    opacity: 0%;
+}
+/**Ket thuc trang dau tien cua trang chu**/

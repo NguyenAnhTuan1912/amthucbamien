@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url(../fonts/Franklin-Gothic-Heavy-Regular.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic';
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 1903px;
+    min-height: 300vh;
+    margin: 0 auto;
+}
+
+article.main {
+    background-image: url(../images/Banner/thucdon.jpg);
+}
+
+/*Phan thuc don*/
+article.body a, article.body p, article.body span, article.body li {
+    font-family: 'Roboto-Regular';
+}
+
+article.body {
+    position: relative;
+    z-index: 1;
+}
+
+article.body article.thucdon {
+    width: 1903px;
+    min-height: 1979px;
+    background-color: rgb(241, 241, 241);
+    padding: 200px 0;
+}
+
+article.thucdon article.box {
+    margin: 0 auto;
+    width: 1280px;
+    height: 730px;
+}
+
+/*Phan ten*/
+article.thucdon article.box div.thucdon_name p {
+    font-family: 'Roboto-Black';
+    font-size: 55px;
+    font-weight: bold;
+    text-align: justify;
+    color: #262626;
+}
+
+article.thucdon article.box div.thucdon_name p:last-child {
+    font-family: 'Roboto-Regular';
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+article.thucdon article.box div.thucdon_name {
+    float: left;
+    width: 550px;
+    height: 230px;
+}
+
+/*Page*/
+article.thucdon article.box div.page {
+    float: right;
+    padding: 0 40px;
+    width: 650px;
+    height: 730px;
+}
+
+article.thucdon article.box div.page p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+article.thucdon article.box div.page div.kieu {
+    float: left;
+    width: 305px;
+    height: 300px;
+    margin: 10px;
+    background-color: white;
+    border-bottom: 5px solid #FCD700;
+}
+
+article.thucdon article.box div.page div.kieu div.kieu_img {
+    width: 305px;
+    height: 182.8125px;
+    overflow: hidden;
+}
+
+article.thucdon article.box div.page div.kieu div.kieu_img img {
+    width: 305px;
+    height: 182.8125px;
+    transition: all 0.4s;
+}
+
+article.thucdon article.box div.page div.kieu div.kieu_img img:hover {
+    transform: scale(1.1);
+}
+
+article.thucdon article.box div.page div.kieu div.text {
+    cursor: default;
+    width: 270px;
+    height: 112.1875px;
+    margin: 20px auto;
+}
+
+article.thucdon article.box div.page div.kieu div.text p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: #262626;
+}
+
+article.thucdon article.box div.page div.kieu div.text p:last-child {
+    color: gray;
+    text-align: justify;
+}
+
+
+/**/
+article.thucdon article.kieuthucdon {
+    margin: 36px auto;
+    padding: 60px 20px 20px 20px;
+    width: 1240px;
+    height: 600px;
+    background-color: white;
+}
+
+article.thucdon article.kieuthucdon div.kieuthucdon_title p{
+    font-family: 'Roboto-Black';
+    font-size: 55px;
+    text-align: justify;
+    color: #262626;
+}
+
+article.thucdon article.kieuthucdon div.pagebig {
+    margin: 20px auto;
+    width: 1100px;
+    height: 410px;
+    overflow: hidden;
+}
+
+article.thucdon article.kieuthucdon div.pagebig div#pagemid,
+article.thucdon article.kieuthucdon div.pagebig div#pagemid1,
+article.thucdon article.kieuthucdon div.pagebig div#pagemid2,
+article.thucdon article.kieuthucdon div.pagebig div#pagemid3 {
+    position: relative;
+    margin: 0 auto;
+    width: 3240px;
+    height: 410px;
+    transition: all 0.4s;
+    left: 0px;
+}
+
+article.thucdon article.kieuthucdon div.kieu_page {
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    width: 1080px;
+    height: 390px;
+}
+
+article.thucdon article.kieuthucdon div.kieu_page div.kieu_monan {
+    cursor: default;
+    float: left;
+    width: 500px;
+    height: 160px;
+    margin: 16px 20px 16px 20px;
+}
+
+article.thucdon article.kieuthucdon div.kieu_page div.kieu_monan div.kieu_img {
+    float: left;
+    width: 160px;
+    height: 160px;
+    background-color: #FCD700;
+    margin-right: 20px;
+}
+
+article.thucdon article.kieuthucdon div.kieu_page div.kieu_monan div.kieu_name {
+    float: left;
+    width: 320px;
+}
+
+article.thucdon article.kieuthucdon div.kieu_page div.kieu_monan div.kieu_name p {
+    font-size: 20px;
+}
+
+article.thucdon article.kieuthucdon div.kieu_page div.kieu_monan div.kieu_text {
+    float: left;
+    width: 320px;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+article.thucdon article.kieuthucdon div.kieu_page div.kieu_monan div.kieu_text p {
+    font-size: 16px;
+    color: gray;
+    text-align: justify;
+}
+
+article.thucdon article.kieuthucdon div.kieu_page div.kieu_monan div.lk {
+    float: left;
+    width: 320px;
+    height: 36px;
+}
+
+article.thucdon article.kieuthucdon div.kieu_page div.kieu_monan div.lk a {
+    line-height: 36px;
+    text-align: right;
+    color: #262626;
+    transition: all 0.4s;
+}
+
+article.thucdon article.kieuthucdon div.kieu_page div.kieu_monan div.lk a:hover {
+    color: #FCD700;
+}
+
+article.thucdon article.kieuthucdon div.kieu_number {
+    cursor: pointer;
+    width: 78px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+article.thucdon article.kieuthucdon div.kieu_number span {
+    font-size: 20px;
+    color: gray;
+    transition: all 0.4s;
+    margin: 0 10px;
+}
+
+article.thucdon article.kieuthucdon div.kieu_number span:hover {
+    color: #FCD700;
+}
+
+

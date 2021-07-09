@@ -1,0 +1,405 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url(../fonts/Franklin-Gothic-Heavy-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body a, body p, body span, body li, body h3 {
+    font-family: 'Roboto-Regular';
+}
+
+article.main {
+    background-image: url(../images/Banner/nauan.jpg);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 1903px;
+    min-height: 300vh;
+}
+
+article.body {
+    position: relative;
+    width: 1903px;
+    min-height: 100vh;
+    background-color: rgb(241, 241, 241);
+    z-index: 3;
+    padding: 200px 0;
+}
+
+article.dau {
+    width: 980px;
+    height: 550px;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+article.dau div#ti {
+    padding-left: 30px;
+}
+
+article.dau div#ti p {
+    font-style: italic;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+article.dau div#tt {
+    margin: 10px 50px;
+    padding-left: 10px;
+    border-left: 5px solid grey;
+}
+
+article.dau div#tt p {
+    font-style: italic;
+    color: grey;
+}
+
+article.dau section {
+    float: left;
+    margin: 0px 20px 20px 0px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 550px;
+}
+
+article.dau section div.img {
+    margin: 40px auto;
+    width: 588px;
+    height: 330.59px;
+}
+
+article.dau section div.img img {
+    width: 588px;
+}
+
+article.dau aside {
+    float: right;
+    width: 35%;
+    height: 500px;
+}
+
+article.dau div#au, article.dau div#ma {
+    position: relative;
+    margin: 10px 0px 20px 0px;
+}
+
+article.dau div#bor {
+    position: absolute;
+    width: 200px;
+    margin: 0px 71.5px;
+    border-bottom: 1px solid #262626;
+}
+
+article.dau div#au, article.dau div#ma {
+    text-align: center;
+}
+
+article.dau div#au p#ti, article.dau div#ma p#ti {
+    color: #262626;
+    font-weight: bold;
+}
+
+article.dau div#text {
+    margin: 0 auto;
+    width: 240px;
+}
+
+article.dau p#hai {
+    font-style: italic;
+    color: grey;
+}
+
+article.dau p#sc1 {
+    margin: 10px 0 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+article.dau aside div.sc {
+    margin: 0px 0px 20px 0px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+article.dau div#wt_tx {
+    padding-top: 20px;
+}
+
+article.dau div#wt_tx p {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+article.dau aside div.wt {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 150px;
+}
+
+article.dau div.y {
+    float: left;
+    margin: 30px 0px 0px 70px;
+}
+
+article.dau div.n {
+    float: right;
+    margin: 30px 70px 0px 0px;
+}
+
+article.dau div.au div#am input[type=range] {
+    color: rgb(84, 218, 72);
+    height: 50px;
+}
+
+article.dau div.y form input[type=submit], article.dau div.n form input[type=submit] {
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-style: italic;
+    font-weight: bold;
+    color: #262626;
+    transition: all 0.5s;
+}
+
+article.dau div.y form input[type=submit]:hover, article.dau div.n form input[type=submit]:hover {
+    color: white;
+    background-color: black;
+}
+
+
+article.dau div#ma form input[type=submit] {
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-style: italic;
+    font-weight: bold;
+    color: #262626;
+    margin-bottom: 10px;
+    transition: all 0.4s;
+}
+
+article.dau div#ma form input[type=submit]:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+/**Xong phan dau**/
+
+
+
+/**Phan giua**/
+article.giua {
+    width: 980px;
+    height: 220px;
+    margin: 40px auto;
+}
+
+article.giua section {
+    float: left;
+    margin: 0px 20px 20px 0px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+
+.prev {
+    float: left;
+    cursor: pointer;
+    width: auto;
+    color: #262626;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    padding: 10px;
+    margin: 80px 0;
+}
+
+.next {
+    float: right;
+    cursor: pointer;
+    width: auto;
+    color: #262626;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 3px 0 0 3px;
+    user-select: none;
+    padding: 10px;
+    margin: 80px 0;
+}
+
+.prev:hover, .next:hover {
+    transition: all 0.5s;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+}
+
+article.giua div.sel {
+    width: 200px;
+    height: 180px;
+    border: 1px solid black;
+    position: absolute;
+    margin: 20px 0 15px 120px;
+}
+
+article.giua div.img {
+    float: left;
+}
+
+article.giua div.text {
+    width: 350px;
+    height: 180px;
+    position: absolute;
+    margin: 0 0 0 210px;
+}
+
+article.giua div.text h3 {
+    width: 350px;
+    font-size: 30px;
+}
+
+article.giua div.text p {
+    float: left;
+    width: 350px;
+    margin-top: 10px;
+    font-style: italic;
+    color: grey;
+}
+/**Xong phan giua**/
+
+
+div#nl, div#cb {
+    width: 980px;
+    height: 34px;
+    margin: 20px auto;
+    font-family: 'Roboto-Black';
+    cursor: default;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: justify;
+    color: #262626;
+}
+
+div#nl p, div#cb p {
+    float: left;
+}
+
+
+/**Phan chu thich**/
+article.chuthich {
+    width: 980px;
+    height: 396px;
+    margin: 40px auto;
+}
+
+article.chuthich section {
+    float: left;
+    margin: 0 20px 20px 0;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    min-height: 100%;
+}
+
+article.chuthich div.nl {
+    float: left;
+    margin: 20px 0 20px 0;
+    width: 261.3333px;
+    text-align: center;
+}
+
+article.chuthich div.nl p#te {
+    color: #262626;
+}
+
+article.chuthich div.nl p#luong {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+article.chuthich div.nl p#donvi {
+    color: #262626;
+}
+
+/**Xong phan chu thich**/
+
+
+
+
+/**Phan cuoi**/
+article.cuoi {
+    width: 980px;
+    margin: 40px auto;
+}
+
+article.cuoi section {
+    float: left;
+    margin: 0px 20px 20px 0px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    min-height: 100%;
+    position: relative;
+}
+
+article.cuoi section div.img {
+    margin-top: 50px;
+    width: 100%;
+    height: 441px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+article.cuoi section div.ti {
+    margin: 20px 0 10px 50px;
+    font-size: 22px;
+    color: #262626;
+}
+
+article.cuoi section div.tt ul.hd {
+    height: 221px;
+    margin-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 50px;
+    color: rgb(32, 32, 32);
+}
+
+article.cuoi section div.tt ul.hd li {
+    font-size: 16px;
+}
+
+/**Xong phan cuoi***/

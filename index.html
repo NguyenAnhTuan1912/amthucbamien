@@ -1,157 +1,800 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Trang Chu</title>
-        <link rel="stylesheet" href="CSS/style.css">
-    </head>
-    <body>
-        <header>
-            <div>
-                <img src="Images/banner.jpg" alt="">
-            </div>
-        </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ẨM THỰC BA MIỀN</title>
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="icon/logoamthucvietnam(loai2comau).ico" type="image/png">
+</head>
+<body>
+    <header id="header">
+        <a href=""><img src="images/Logo/logoamthucvietnam(loai1comau).png" alt="" id="logo"></a>
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="khampha.html">Khám phá</a></li>
+            <li><a href="thucdon.html">Thực đơn</a></li>
+            <li><a href="nauan.html">Nấu ăn</a></li>
+            <li><a href="lienhe.html">Liên hệ</a></li>
+            <li><a href="thongtin.html">Thông tin</a></li>
+        </ul>
+    </header>
 
-        <nav>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Home</a>
-                        <ul class="smenu">
-                            <li><a href="#">Lựa chọn 1</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">About</a>
-                        <ul class="smenu">
-                            <li><a href="#">Lựa chọn 1</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Product</a>
-                        <ul class="smenu">
-                            <li><a href="#">Lựa chọn 1</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">News</a>
-                    </li>
-                    <li><a href="lienhe.html">Contract</a>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </nav>
 
-        <article>
-            <div class="slide">
-                <div>
-                    <img src="Images/slider/1.jpg" alt="" id="1" style="opacity: 1;">
-                    <img src="Images/slider/2.jpg" alt="" id="2">
-                    <img src="Images/slider/3.jpg" alt="" id="3">
-                    <img src="Images/slider/4.jpg" alt="" id="4">
-                    <img src="Images/slider/5.jpg" alt="" id="5">
-                    <img src="Images/slider/6.jpg" alt="" id="6">
-                    <img src="Images/slider/7.jpg" alt="" id="7">
-                    <img src="Images/slider/8.jpg" alt="" id="8">
-                    <img src="Images/slider/9.jpg" alt="" id="9">
-                </div>
-                
-                <img src="Images/slider/prev.png" alt="" onclick="ButtonPlus(-1)" id="pre">
-                <img src="Images/slider/next.png" alt="" onclick="ButtonPlus(1)" id="nex">
-            </div>
-            <script src="/slide.js"></script>
-            <section>
-                <div class="im">
-                    <div class="sim">
-                        <img src="Images/Asus.jpg" alt="">
-                        <p>Price: <span id="nonsale">800$</span><span id="sale"> 740$</span></p>
-                    </div>
-                    <div class="sim">
-                        <img src="Images/Asus_4.jpg" alt="">
-                        <p>Price: <span id="nonsale">900$</span><span id="sale"> 800$</span></p>
-                    </div>
-                    <div class="sim">
-                        <img src="Images/Asus_3.png" alt="">
-                        <p>Price: <span id="nonsale">960$</span><span id="sale"> 820$</span></p>
-                    </div>
-                    <div class="sim">
-                        <img src="Images/Dell_big.jpg" alt="">
-                        <p>Price: <span id="nonsale">900$</span><span id="sale"> 800$</span></p>
-                    </div>
-                    <div class="sim">
-                        <img src="Images/Dell_4.jpg" alt="">
-                        <p>Price: <span id="nonsale">1000$</span><span id="sale"> 930$</span></p>
-                    </div>
-                    <div class="sim">
-                        <img src="Images/Dell_1.jpg" alt="">
-                        <p>Price: <span id="nonsale">1100$</span><span id="sale"> 970$</span></p>
-                    </div>
-                </div>
-            </section>     
-            
-            <aside>
-                <div class="title_right">
-                    <p>News technology</p>
-                </div>
-                <div class="news">
-                    <div class="img">
-                        <a href="#">
-                            <img src="Images/oppof3.png" alt="">
-                        </a>
-                    </div>
-                    <p>
-                        <a href="#">What do get With 7.5 million buy OPPO F3 users?</a>
-                    </p>
-                </div>
-                <div class="news">
-                    <div class="img">
-                        <a href="#">
-                            <img src="Images/samsungs8.png" alt="">
-                        </a>
-                    </div>
-                    <p>
-                        <a href="#">FPT Shop will be offering F-Plus for Galaxy S8 / S8 + customers from in September 2017!</a>
-                    </p>
-                </div>
-                <div class="news">
-                    <div class="img">
-                        <a href="#">
-                            <img src="Images/pmh.png" alt="">
-                        </a>
-                    </div>
-                    <p>
-                        <a href="#">FPT Shop donates 1,500 coupon 800,000 VND for customers to receive Galaxy S8 on the first day of sale on Wednesday, December 3rd, 2017</a>
-                    </p>
-                </div>
-                <div class="news">
-                    <div class="img">
-                        <a href="#">
-                            <img src="Images/aothung.png" alt="">
-                        </a>
-                    </div>
-                    <p>
-                        <a href="#">Come to experience Galaxy S8: just get T-shirt and have chance to hit 8 S8 Plus at FPT Shop!</a>
-                    </p>
-                </div>
-                <div class="news">
-                    <div class="img">
-                        <a href="#">
-                            <img src="Images/dulich.png" alt="">
-                        </a>
-                    </div>
-                    <p>
-                        <a href="#">FPT Shop added 8 gifts to the US for Galaxy S8 / S8 Plus reservations</a>
-                    </p>
-                </div>
-            </aside>
-        </article>
 
-        <footer>
-            <div>
+    <article class="main" id="scrollmain">
+        <div class="name_logo" id="name_logo">
+            <p id="name">ẨMTHỰC BAMIỀN</p>
+            <p id="lk">
+                <a href="#">Miền Bắc </a>
+                <span> | </span>
+                <a href="#"> Miền Trung </a>
+                <span> | </span>
+                <a href="#"> Miền Nam</a>
+            </p>
+        </div>
+        <div class="hd" id="hd" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+            <p id="hv">Cuộn xuống để xem thêm</p>
+            <p id="ahv"><img src="Icon/Icon2.png" alt=""></p>
+        </div>
+    </article>
+    <article class="body">
+        <div id="line" style="border-top: 1px solid #FCD700;  margin: 50px auto; width: 200px;"></div>
+        <article class="banhmipho">
+            <div class="name">
                 <p>
-                    Họ và Tên: Nguyễn Anh Tuấn<br>
-                    Lớp: 20DTH5<br>
-                    Mã số sinh viên: 162001473
+                    /BÁNH MÌ & PHỞ/
                 </p>
             </div>
-        </footer>
-        <script src="JS/Slide.js"></script>
-    </body>
+            <div class="thongtin">
+                <p>
+                    Khi người nước ngoài được hỏi về ẩm thực Việt Nam nói riêng và Đất Nước Việt Nam nói chung, thì câu trả lời của họ hầu như và lúc nào
+                    cũng nói đến hai món ăn, đó là bánh mì & phở. Thật vậy, khi khảo sát về ẩm thực Việt Nam cho thấy, cứ 100 người nước ngoài, có khoảng
+                    74 trên 100 người nói rằng biết cả bánh mì & phở, và cũng đã từng ăn qua.
+                </p>
+            </div>
+            <div class="img">
+                <img src="doan/banhmi/Edited/banhmi2.png" alt="">
+            </div>
+            <div class="name1">
+                <p>
+                    BÁNH MÌ
+                </p>
+            </div>
+            <div class="thongtin">
+                <p>
+                    không còn quá xa lạ gì với chúng ta nữa. <b style="font-family: 'Roboto-Regular'">Bánh mì</b> có thể là bữa sáng, bữa trưa, bữa chiều, bữa tối, bữa khuya, bất kì bữa nào trong
+                    ngày mà chúng ta có thể ăn. <b style="font-family: 'Roboto-Regular'">Bánh mì</b> có thể xem là một món ăn "quốc hồn quốc túy" của đất nước ta.
+                    <b style="font-family: 'Roboto-Regular'">Bánh mì</b> nổi tiếng là vì nó ngon, nó ngon là nhờ khả năng kết hợp những thứ khác vào trong nó, gọi là các <b style="font-family: 'Roboto-Regular'">nhân</b>
+                    với các <b style="font-family: 'Roboto-Regular'">nhân</b> này, làm cho bánh mì càng trở nên phong phú và đa dạng. Tất cả là nhờ sự kết hợp hài họa giữa các hương vị, các loại thịt, nước sốt... 
+                </p>
+            </div>
+            <div class="img">
+                <img src="doan/pho/Edited/pho2.png" alt="" style="width: 380px; height: 380px; margin: 100px 0">
+            </div>
+            <div class="name1">
+                <p>
+                    PHỞ
+                </p>
+            </div>
+            <div class="thongtin">
+                <p>
+                    chắc chắn rồi, <b style="font-family: 'Roboto-Regular'">Phở</b> chính là món ăn "Quốc hồn, Quốc tý" của Việt Nam. Chúng ta có Quốc Kỳ, Quốc Huy, Quốc Ca và đương nhiên chúng ta cũng có
+                    <b style="font-family: 'Roboto-Regular'">Phở</b> là Quốc thực, được bạn bè Quốc tế khen ngợi. Dẻo dai của bánh, đậm đà của nước, sự dai của thịt, tất cả kết hợp lại tạo nên một món ăn tinh
+                    tế, linh hồn của ẩm thực Việt Nam.
+                </p>
+            </div>
+
+            <div id="line" style="border-top: 1px solid #FCD700;  margin: 50px auto; width: 200px;"></div>
+        </article>
+
+        <div class="dn">
+            <p>
+                Và Việt Nam cũng còn rất nhiều món ăn rất ngon nữa. Vậy thì tại sao chúng ta lại không giới thiệu cho Thế Giới biết nhỉ? Các bạn hãy cùng tôi đi tìm hiểu về văn hóa ẩm thực ba miền và đưa nó đến với Thế giới nhé.
+            </p>
+        </div>
+
+        <div id="line" style="border-top: 1px solid #FCD700;  margin: 50px auto; width: 200px;"></div>
+        <article class="khampha">
+            <p style="font-weight: bold; font-size: 74px; color: #262626; margin: 50px 0 0 0; text-align: center; cursor: default">/KHÁM PHÁ/</p>
+            <p style="font-size: 20px; color: #262626; margin: 10px 0 0 0; text-align: center; cursor: default">mọi miền đất nước</p>
+            <div class="equal">
+                <div id="img">
+                    <img src="images/khampha/hanoi.jpg" alt="" id="lo" onmouseover="chuotvao(0)" onmouseout="chuotra(0)">
+                    <div class="new"></div>
+                </div>
+                <div class="text">
+                    <p id="name">
+                        Hà Nội
+                    </p>
+                    <span>
+                        <img src="icon/icon3.svg" alt="" style="width: 16px">
+                    </span>
+                    <span id="tx">
+                        Đồng bằng sông Hồng - Miền Bắc
+                    </span>
+                </div>
+            </div>
+            <div class="equal">
+                <div id="img">
+                    <img src="images/khampha/hue.jpg" alt="" id="lo" onmouseover="chuotvao(1)" onmouseout="chuotra(1)">
+                    <div class="new"></div>
+                </div>
+                <div class="text">
+                    <p id="name">
+                        Thừa Thiên - Huế
+                    </p>
+                    <span>
+                        <img src="icon/icon3.svg" alt="" style="width: 16px">
+                    </span>
+                    <span id="tx">
+                        Duyên hải Bắc Trung Bộ - Miền Trung
+                    </span>
+                </div>
+            </div>
+
+            <div class="equal">
+                <div id="img">
+                    <img src="images/khampha/hochiminh.jpg" alt="" id="lo" onmouseover="chuotvao(2)" onmouseout="chuotra(2)">
+                    <div class="new"></div>
+                </div>
+                <div class="text">
+                    <p id="name">
+                        TP.Hồ Chí Minh
+                    </p>
+                    <span>
+                        <img src="icon/icon3.svg" alt="" style="width: 16px">
+                    </span>
+                    <span id="tx">
+                        Đông Nam Bộ - Miền Nam
+                    </span>
+                </div>
+            </div>
+
+            <div class="more">
+                <div id="m1">
+                    <a href="">Miền Bắc</a>
+                    <span style="cursor: default"> > </span>
+                    <a href="">Hà Nội</a>
+                </div>
+                <div id="m1">
+                    <a href="">Miền Trung</a>
+                    <span style="cursor: default"> > </span>
+                    <a href="">Thừa Thiên - Huế</a>
+                </div>
+                <div id="m1">
+                    <a href="">Miền Nam</a>
+                    <span style="cursor: default"> > </span>
+                    <a href="">TP.Hồ Chí Minh</a>
+                </div>
+            </div>
+
+
+            <div class="equal">
+                <div id="img">
+                    <img src="images/khampha/thainguyen.jpg" alt="" id="lo" onmouseover="chuotvao(3)" onmouseout="chuotra(3)">
+                    <div class="new"></div>
+                </div>
+                <div class="text">
+                    <p id="name">
+                        Thái Nguyên
+                    </p>
+                    <span>
+                        <img src="icon/icon3.svg" alt="" style="width: 16px">
+                    </span>
+                    <span id="tx">
+                        Trung du miền núi Bắc bộ - Miền Bắc
+                    </span>
+                </div>
+            </div>
+
+            <div class="equal">
+                <div id="img">
+                    <img src="images/khampha/danang.jpg" alt="" id="lo" onmouseover="chuotvao(4)" onmouseout="chuotra(4)">
+                    <div class="new"></div>
+                </div>
+                <div class="text">
+                    <p id="name">
+                        Đà Nẵng
+                    </p>
+                    <span>
+                        <img src="icon/icon3.svg" alt="" style="width: 16px">
+                    </span>
+                    <span id="tx">
+                        Duyên hải Nam Trung Bộ - Miền Trung
+                    </span>
+                </div>
+            </div>
+
+            <div class="equal">
+                <div id="img">
+                    <img src="images/khampha/vungtau.jpg" alt="" id="lo" onmouseover="chuotvao(5)" onmouseout="chuotra(5)">
+                    <div class="new"></div>
+                </div>
+                <div class="text">
+                    <p id="name">
+                        Bà Rịa - Vũng Tàu
+                    </p>
+                    <span>
+                        <img src="icon/icon3.svg" alt="" style="width: 16px">
+                    </span>
+                    <span id="tx">
+                        Đông Nam Bộ - Miền Nam
+                    </span>
+                </div>
+            </div>
+            <div class="more">
+                <div id="m1">
+                    <a href="">Miền Bắc</a>
+                    <span style="cursor: default"> > </span>
+                    <a href="">Thái Nguyên</a>
+                </div>
+                <div id="m1">
+                    <a href="">Miền Trung</a>
+                    <span style="cursor: default"> > </span>
+                    <a href="">Đà Nẵng</a>
+                </div>
+                <div id="m1">
+                    <a href="">Miền Nam</a>
+                    <span style="cursor: default"> > </span>
+                    <a href="">Bà Rịa - Vũng Tàu</a>
+                </div>
+            </div>
+            <p style="text-align: center" class="out"><a href="" id="main">Xem thêm</a></p>
+        </article>
+
+        <div id="line" style="border-top: 1px solid #FCD700;  margin: 50px auto; width: 200px;"></div>
+        
+        <article class="thucdon">
+        <p style="font-weight: bold; font-size: 74px; color: #262626; margin: 50px 0 0 0; text-align: center; cursor: default">/THỰC ĐƠN/</p>
+        <p style="font-size: 20px; color: #262626; margin: 10px 0 0 0; text-align: center; cursor: default">các món ăn kết hợp với nhau tạo ra một bữa ăn thịnh soạn</p>
+            <div class="biggest">
+                <div id="img">
+                    <div class="text_thucdon">
+                        <div id="ige">
+                            <img src="images/thucdon/thucdon1.jpg" alt="">
+                        </div>
+                        <div id="tx3">
+                            <p id="h1">
+                                Kiểu - Gia đình.
+                            </p>
+                            <p id="para">
+                                Bữa cơm Gia đình thân thuộc. Mặc dù không sang trọng, nhưng bữa cơm gia đình luôn đầy ắp tiếng cười.
+                                <br>
+                            </p>
+                        </div>
+                        <div id="nen"></div>
+                    </div>
+                    <div class="text_thucdon">
+                        <div id="ige">
+                            <img src="images/thucdon/thucdon2.jpg" alt="">
+                        </div>
+                        <div id="tx3">
+                            <p id="h1">
+                                Kiểu - Bãi biển.
+                            </p>
+                            <p id="para">
+                                Từng con tôm, mực, cá, bạch tuột mang theo hương vị từ ngoài biển về đến nhà của chúng ta.
+                            </p>
+                        </div>
+                        <div id="nen"></div>
+                    </div>
+                    <div class="text_thucdon">
+                        <div id="ige">
+                            <img src="images/thucdon/thucdon3.jpg" alt="">
+                        </div>
+                        <div id="tx3">
+                            <p id="h1">
+                                Kiểu - Nhà hàng.
+                            </p>
+                            <p id="para">
+                                Với thực đơn nhà hàng, làm cho bữa ăn của chúng ta trở nên trang trọng hơn vào những dịp đón khách quý.
+                            </p>
+                        </div>
+                        <div id="nen"></div>
+                    </div>
+                    <div class="text_thucdon">
+                        <div id="ige">
+                            <img src="images/thucdon/thucdon4.jpg" alt="">
+                        </div>
+                        <div id="tx3">
+                            <p id="h1">
+                                Kiểu - Đồng quê.
+                            </p>
+                            <p id="para">
+                                Gợi lại kỉ niệm hồi còn ở quê với ông bà, những món ăn mang đậm chất "đồng lúa".
+                            </p>
+                        </div>
+                        <div id="nen"></div>
+                    </div>
+                </div>
+                <div class="button">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <div class="dmain">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>  
+                    <span class="dot" onclick="currentSlide(4)"></span>             
+                </div>
+            </div>
+            <div class="medium">
+                <div class="thucdoncon">
+                    <div id="h1">
+                        <p id="bger" style="text-align:center; font-weight: bold; font-size: 20px; color: #FCD700;">
+                            Thực đơn
+                        </p>
+                        <p id="smler" style="text-align:center">
+                            Kiểu - Gia đình
+                        </p>
+                    </div>
+                    <div id="list">
+                        <ul>Khai vị:
+                            <li>Canh rau củ</li>
+                        </ul>
+                        <ul>Món chính:
+                            <li>Gà chiên nước mắm</li>
+                            <li>Thịt heo canh rau củ</li>
+                        </ul>
+                        <ul>Tráng miệng:
+                            <li>Ổi</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="thucdoncon">
+                    <div id="h1">
+                        <p id="bger" style="text-align:center; font-weight: bold; font-size: 20px; color: #FCD700;">
+                            Thực đơn
+                        </p>
+                        <p id="smler" style="text-align:center">
+                            Kiểu - Gia đình
+                        </p>
+                    </div>
+                    <div id="list">
+                        <ul>Khai vị:
+                            <li>Canh rau củ</li>
+                        </ul>
+                        <ul>Món chính:
+                            <li>Gà chiên nước mắm</li>
+                            <li>Thịt heo canh rau củ</li>
+                        </ul>
+                        <ul>Tráng miệng:
+                            <li>Ổi</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="thucdoncon">
+                    <div id="h1">
+                        <p id="bger" style="text-align:center; font-weight: bold; font-size: 20px; color: #FCD700;">
+                            Thực đơn
+                        </p>
+                        <p id="smler" style="text-align:center">
+                            Kiểu - Gia đình
+                        </p>
+                    </div>
+                    <div id="list">
+                        <ul>Khai vị:
+                            <li>Canh rau củ</li>
+                        </ul>
+                        <ul>Món chính:
+                            <li>Gà chiên nước mắm</li>
+                            <li>Thịt heo canh rau củ</li>
+                        </ul>
+                        <ul>Tráng miệng:
+                            <li>Ổi</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="thucdoncon">
+                    <div id="h1">
+                        <p id="bger" style="text-align:center; font-weight: bold; font-size: 20px; color: #FCD700;">
+                            Thực đơn
+                        </p>
+                        <p id="smler" style="text-align:center">
+                            Kiểu - Gia đình
+                        </p>
+                    </div>
+                    <div id="list">
+                        <ul>Khai vị:
+                            <li>Canh rau củ</li>
+                        </ul>
+                        <ul>Món chính:
+                            <li>Gà chiên nước mắm</li>
+                            <li>Thịt heo canh rau củ</li>
+                        </ul>
+                        <ul>Tráng miệng:
+                            <li>Ổi</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="thucdoncon">
+                    <div id="h1">
+                        <p id="bger" style="text-align:center; font-weight: bold; font-size: 20px; color: #FCD700;">
+                            Thực đơn
+                        </p>
+                        <p id="smler" style="text-align:center">
+                            Kiểu - Gia đình
+                        </p>
+                    </div>
+                    <div id="list">
+                        <ul>Khai vị:
+                            <li>Canh rau củ</li>
+                        </ul>
+                        <ul>Món chính:
+                            <li>Gà chiên nước mắm</li>
+                            <li>Thịt heo canh rau củ</li>
+                        </ul>
+                        <ul>Tráng miệng:
+                            <li>Ổi</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="thucdoncon">
+                    <div id="h1">
+                        <p id="bger" style="text-align:center; font-weight: bold; font-size: 20px; color: #FCD700;">
+                            Thực đơn
+                        </p>
+                        <p id="smler" style="text-align:center">
+                            Kiểu - Gia đình
+                        </p>
+                    </div>
+                    <div id="list">
+                        <ul>Khai vị:
+                            <li>Canh rau củ</li>
+                        </ul>
+                        <ul>Món chính:
+                            <li>Gà chiên nước mắm</li>
+                            <li>Thịt heo canh rau củ</li>
+                        </ul>
+                        <ul>Tráng miệng:
+                            <li>Ổi</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="thucdoncon">
+                    <div id="h1">
+                        <p id="bger" style="text-align:center; font-weight: bold; font-size: 20px; color: #FCD700;">
+                            Thực đơn
+                        </p>
+                        <p id="smler" style="text-align:center">
+                            Kiểu - Gia đình
+                        </p>
+                    </div>
+                    <div id="list">
+                        <ul>Khai vị:
+                            <li>Canh rau củ</li>
+                        </ul>
+                        <ul>Món chính:
+                            <li>Gà chiên nước mắm</li>
+                            <li>Thịt heo canh rau củ</li>
+                        </ul>
+                        <ul>Tráng miệng:
+                            <li>Ổi</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="thucdoncon">
+                    <div id="h1">
+                        <p id="bger" style="text-align:center; font-weight: bold; font-size: 20px; color: #FCD700;">
+                            Thực đơn
+                        </p>
+                        <p id="smler" style="text-align:center">
+                            Kiểu - Gia đình
+                        </p>
+                    </div>
+                    <div id="list">
+                        <ul>Khai vị:
+                            <li>Canh rau củ</li>
+                        </ul>
+                        <ul>Món chính:
+                            <li>Gà chiên nước mắm</li>
+                            <li>Thịt heo canh rau củ</li>
+                        </ul>
+                        <ul>Tráng miệng:
+                            <li>Ổi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p style="text-align: center" class="out"><a href="" id="main">Xem thêm</a></p>
+            <div id="line" style="border-top: 1px solid #FCD700;  margin: 50px auto; width: 200px;"></div>
+        </article>
+
+        <article class="nauan">
+            <p style="font-weight: bold; font-size: 74px; color: #262626; margin: 50px 0 0 0; text-align: center; cursor: default">/NẤU ĂN/</p>
+            <p style="font-size: 20px; color: #262626; margin: 10px 0 0 0; text-align: center; cursor: default">kết hợp các nguyên liệu, hương vị, tạo ra món ăn của bạn</p>
+            <div id="tle_big">
+                <p><span style="background-color: #FCD700">N</span>hững món ăn là xu hướng trong tháng 7</p>
+                <div class="top3">
+                    <div class="top3_img">
+                        <img src="images/Banner/Tthree_egg.jpg" alt="">
+                    </div>
+                    <div class="top3_text">
+                        <p>TOP 3 MÓN ĂN TRONG THÁNG 7</p>
+                        <a href="select_food.html">Xem thêm</a>
+                    </div>
+                </div>
+                <p style="text-align: center; color: gray; margin-top: 20px; cursor: default;">Cuộn xuống để xem thêm</p>
+            </div>
+            <div id="tle_medium">
+                <p><span style="background-color: #FCD700">N</span>hững món ăn khác</p>
+                <div class="box">
+                    <p>Ở BÊN DƯỚI</p>
+                </div>
+            </div>
+            <div class="big">
+                <div class="big_page">
+                    <div id="img3">
+                        <img src="doan/home_nauan/banhcan.jpg" alt="">
+                    </div>
+                    <div id="name3">
+                        <p id="staff" style="font-weight: bold; color: #FCD700;">Tác giả</p>
+                        <p id="name3">Nguyễn Anh Tuấn</p>
+                    </div>
+                    <div id="text3">
+                        <ul>Bánh căn
+                            <li>Là loại bánh có nguồn gốc từ Đà Lạt. Bánh căn rất dễ bị nhầm lẫn với bánh khọt ở các tỉnh phía Nam, nhưng cách làm hoàn toàn...</li>
+                        </ul>
+                        <ul>
+                            <li style="float: right;"><a href="">Xem thêm &#10095;</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="big_page">
+                    <div id="img3">
+                        <img src="doan/home_nauan/banhxeo.jpg" alt="">
+                    </div>
+                    <div id="name3">
+                        <p id="staff" style="font-weight: bold; color: #FCD700;">Tác giả</p>
+                        <p id="name3">Phan Anh Tuấn</p>
+                    </div>
+                    <div id="text3">
+                        <ul>Bánh xèo
+                            <li>Không chỉ ở mỗi Việt Nam ta, bánh xèo còn rất phổ biến ở các nước Châu Á. Cái tên "Bánh xèo" được đặt khi âm thanh phát ra...</li>
+                        </ul>
+                        <ul>
+                            <li style="float: right;"><a href="">Xem thêm &#10095;</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="big_page">
+                    <div id="img3">
+                        <img src="doan/home_nauan/bunrieu.jpg" alt="">
+                    </div>
+                    <div id="name3">
+                        <p id="staff" style="font-weight: bold; color: #FCD700;">Tác giả</p>
+                        <p id="name3">Nguyễn Trần Anh Tuấn</p>
+                    </div>
+                    <div id="text3">
+                        <ul>Bún riêu cua
+                            <li>Bún riêu cua có nguồn gốc từ khu vực Đồng Bằng Bắc bộ. Bún riêu ban đầu chỉ là một hàng gánh nước lèo nấu với riêu cua rồi ăn...</li>
+                        </ul>
+                        <ul>
+                            <li style="float: right;"><a href="">Xem thêm &#10095;</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="big_page">
+                    <div id="img3">
+                        <img src="doan/home_nauan/gachiennuocmam.jpg" alt="">
+                    </div>
+                    <div id="name3">
+                        <p id="staff" style="font-weight: bold; color: #FCD700;">Tác giả</p>
+                        <p id="name3">Bùi Trần Anh Tuấn</p>
+                    </div>
+                    <div id="text3">
+                        <ul>Gà chiên nước mắm
+                            <li>Không nói đâu xa, nguồn gốc của nó chắc chắn là từ mọi gian bểp gia đình trên khắp đấy nước Việt Nam. Mùi thơm của gà chiên...</li>
+                        </ul>
+                        <ul>
+                            <li style="float: right;"><a href="">Xem thêm &#10095;</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="big_page">
+                    <div id="img3">
+                        <img src="doan/home_nauan/banhcan.jpg" alt="">
+                    </div>
+                    <div id="name3">
+                        <p id="staff" style="font-weight: bold; color: #FCD700;">Tác giả</p>
+                        <p id="name3">Nguyễn Anh Tuấn</p>
+                    </div>
+                    <div id="text3">
+                        <ul>Bánh căn
+                            <li>Là loại bánh có nguồn gốc từ Đà Lạt. Bánh căn rất dễ bị nhầm lẫn với bánh khọt ở các tỉnh phía Nam, nhưng cách làm hoàn toàn...</li>
+                        </ul>
+                        <ul>
+                            <li style="float: right;"><a href="">Xem thêm &#10095;</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="big_page">
+                    <div id="img3">
+                        <img src="doan/home_nauan/banhxeo.jpg" alt="">
+                    </div>
+                    <div id="name3">
+                        <p id="staff" style="font-weight: bold; color: #FCD700;">Tác giả</p>
+                        <p id="name3">Phan Anh Tuấn</p>
+                    </div>
+                    <div id="text3">
+                        <ul>Bánh xèo
+                            <li>Không chỉ ở mỗi Việt Nam ta, bánh xèo còn rất phổ biến ở các nước Châu Á. Cái tên "Bánh xèo" được đặt khi âm thanh phát ra...</li>
+                        </ul>
+                        <ul>
+                            <li style="float: right;"><a href="">Xem thêm &#10095;</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="big_page">
+                    <div id="img3">
+                        <img src="doan/home_nauan/bunrieu.jpg" alt="">
+                    </div>
+                    <div id="name3">
+                        <p id="staff" style="font-weight: bold; color: #FCD700;">Tác giả</p>
+                        <p id="name3">Nguyễn Trần Anh Tuấn</p>
+                    </div>
+                    <div id="text3">
+                        <ul>Bún riêu cua
+                            <li>Bún riêu cua có nguồn gốc từ khu vực Đồng Bằng Bắc bộ. Bún riêu ban đầu chỉ là một hàng gánh nước lèo nấu với riêu cua rồi ăn...</li>
+                        </ul>
+                        <ul>
+                            <li style="float: right;"><a href="">Xem thêm &#10095;</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="big_page">
+                    <div id="img3">
+                        <img src="doan/home_nauan/gachiennuocmam.jpg" alt="">
+                    </div>
+                    <div id="name3">
+                        <p id="staff" style="font-weight: bold; color: #FCD700;">Tác giả</p>
+                        <p id="name3">Bùi Trần Anh Tuấn</p>
+                    </div>
+                    <div id="text3">
+                        <ul>Gà chiên nước mắm
+                            <li>Không nói đâu xa, nguồn gốc của nó chắc chắn là từ mọi gian bểp gia đình trên khắp đấy nước Việt Nam. Mùi thơm của gà chiên...</li>
+                        </ul>
+                        <ul>
+                            <li style="float: right;"><a href="">Xem thêm &#10095;</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="medium">
+                <div class="medium_page" style="opacity: 100%;">
+                    <div id="stt">
+                        <p>1</p>
+                    </div>
+                    <div id="name4">
+                        <p>Kem khoai môn</p>
+                    </div>
+                    <div class="sc">
+                        <p>Điểm</p>
+                        <p id="sc_ch" style="font-size: 40px; color: #00fc7e;">3</p>
+                        <p><a href="">Xem thêm &#10095;</a></p>
+                    </div>
+                    <div id="ab">
+                        <p>Loại: Đồ lạnh - Kem</p>
+                        <span><img src="icon/icon3_dongho.svg" alt=""> 30 phút nấu - </span>
+                        <span><img src="icon/icon3_mat.svg" alt=""> 340</span>
+                        <span><img src="icon/icon3_binhluan.svg" alt="">4</span>
+                        <span><img src="icon/icon3_gimn.svg" alt="">3</span>
+                    </div>
+                </div>
+
+                <div class="medium_page">
+                    <div id="stt">
+                        <p>2</p>
+                    </div>
+                    <div id="name4">
+                        <p>Ốc len xào dừa</p>
+                    </div>
+                    <div class="sc">
+                        <p>Điểm</p>
+                        <p id="sc_ch" style="font-size: 40px; color: #c1fc00;">3.8</p>
+                        <p><a href="">Xem thêm &#10095;</a></p>
+                    </div>
+                    <div id="ab">
+                        <p>Loại: Hải sản - ốc</p>
+                        <span><img src="icon/icon3_dongho.svg" alt=""> 10 phút nấu - </span>
+                        <span><img src="icon/icon3_mat.svg" alt=""> 516</span>
+                        <span><img src="icon/icon3_binhluan.svg" alt="">10</span>
+                        <span><img src="icon/icon3_gimn.svg" alt="">320</span>
+                    </div>
+                </div>
+
+                <div class="medium_page">
+                    <div id="stt">
+                        <p>3</p>
+                    </div>
+                    <div id="name4">
+                        <p>Mì xào hải sản</p>
+                    </div>
+                    <div class="sc">
+                        <p>Điểm</p>
+                        <p id="sc_ch" style="font-size: 40px; color: #ebfc00;">4.1</p>
+                        <p><a href="">Xem thêm &#10095;</a></p>
+                    </div>
+                    <div id="ab">
+                        <p>Loại: Đồ nóng - Mì</p>
+                        <span><img src="icon/icon3_dongho.svg" alt=""> 15 phút nấu - </span>
+                        <span><img src="icon/icon3_mat.svg" alt=""> 601</span>
+                        <span><img src="icon/icon3_binhluan.svg" alt="">102</span>
+                        <span><img src="icon/icon3_gimn.svg" alt="">531</span>
+                    </div>
+                </div>
+
+                <div class="change_page">
+                    <span class="change" id="1" onclick="">1</span>
+                    <span class="change" id="2" onclick="">2</span>
+                    <span class="change" id="3" onclick="">3</span>
+                    <span class="change" id="4" onclick="">4</span>
+                    <span class="change" id="5" onclick="">5</span>
+                </div>
+            </div>
+
+            <p style="text-align: center; clear:both" class="out"><a href="" id="main">Xem thêm</a></p>
+            <div id="line" style="border-top: 1px solid #FCD700;  margin: 50px auto; width: 200px; clear:both"></div>
+        </article>
+        <div class="dn">
+            <p>
+                Rất chân thành cảm ơn các bạn đã lướt đến đây. Bạn có thể liên hệ với chúng tôi bằng cách lưới thêm tí nữa, hoặc là ấn vào <span style="color: #FCD700;">Liên hệ</span>
+                ở phía trên ------------------------------------------------------------------------------------------------------------
+            </p>
+        </div>
+    </article>
+
+    <footer>
+        <article class="footer">
+            <div class="lh"><a href="#">LIÊN HỆ</a></div>
+            <div class="ver_line"></div>
+            <div class="tt"><a href="#">THÔNG TIN</a></div>
+        </article>
+        <div class="name">
+            <p><span style="color: #C92F2F;">ẨMTHỰC</span> BAMIỀN</p>
+            <p>CẢM ƠN CÁC BẠN!</p>
+        </div>
+
+        <div id="v_line"></div>
+
+        <div class="social">
+            <p>Liên hệ với tôi qua mạng xã hội</p>
+            <a href="https://www.facebook.com/tunanguyen19" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/_tunanguyen_/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/channel/UCloHEBIndtnFA6skt9wKw_g/videos" class="fa fa-youtube"></a>
+            <a href="https://www.behance.net/tngnguyn55" class="fa fa-behance"></a>
+        </div>
+
+        <div id="v_line"></div>
+
+        <div class="cpright"><p>&copy;2020, Nguyen Anh Tuan</p></div>
+    </footer>
+    <script src="js/home_menu.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/home_img.js"></script>
+    <script src="js/home_nauan_medium_sc.js"></script>
+</body>
 </html>
+
+
+
+
+<!--<img src="doan/pho/Edited/pho2.png" alt="" style="width: 380px; height: 380px">-->

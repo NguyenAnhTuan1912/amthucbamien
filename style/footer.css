@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url(../fonts/Franklin-Gothic-Heavy-Regular.ttf);
+}
+
+article.footer p, article.footer span, article.footer a {
+    font-family: 'Roboto-Regular';
+}
+
+article.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1903px;
+    min-height: 979px;
+    background-color: rgb(241, 241, 241);
+}
+
+article.footer div.ver_line {
+    background-color: #262626;
+    height: 480px;
+    width: 3px;
+}
+
+article.footer a{
+    font-weight: bold;
+    color: #262626;
+    font-size: 100px;
+    transition: all 0.4s;
+}
+
+article.footer a:hover {
+    color: #FCD700;
+}
+
+
+
+footer p, a, li{
+    font-family: 'Roboto-Regular';
+}
+
+footer {
+    position: relative;
+    z-index: 3;
+    width: 1903px;
+    min-height: 638.5px;
+    background-color: rgb(241, 241, 241);
+    cursor: default;
+}
+
+footer div.name {
+    padding-top: 100px;
+    border-top: 1px solid #262626;
+    margin: 0 auto;
+    height: 174px;
+    width: 900px;
+}
+
+footer div.name p:first-child {
+    font-family: 'Franklin Gothic';
+    font-size: 100px;
+    font-weight: bold;
+    color: #FCD700;
+    font-style: normal;
+}
+
+footer div.name p {
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    color: gray;
+}
+
+footer div.social {
+    margin: 0 auto;
+    height: 56px;
+    width: 900px;
+}
+
+footer div.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div.social p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer div#v_line {
+    margin: 20px auto;
+    background-color: #262626;
+    height: 54px;
+    width: 1px;
+}
+
+a.fa {
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    display: inline-block;
+    font-size: 32px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 10px;
+}
+
+a.fa:hover {
+    opacity: 90%;
+}
+
+a.fa-facebook {
+    color: white;
+    background-color: #3B5998;
+}
+
+a.fa-youtube {
+    color: white;
+    background-color: #bb0000;
+}
+
+a.fa-instagram {
+    color: white;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+
+a.fa-behance {
+    color: white;
+    background-color: #0057ff;
+}
+
+footer div.cpright {
+    width: 1903px;
+}
+
+footer div.cpright p {
+    text-align: center;
+    font-style: italic;
+}

@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url(../fonts/Franklin-Gothic-Heavy-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+
+}
+
+body {
+    width: 1920px;
+    min-height: 979px;
+    margin: 0 auto;
+}
+
+/*TRANG TRI PHAN BODY*/
+article.body p, article.body a, article.body li, article.body span {
+    font-family: 'Roboto-Regular';
+}
+
+article.body {
+    width: 1920px;
+    height: 979px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*LIEN KET*/
+article.body div.lienket {
+    margin-bottom: 50px;
+    width: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+article.body div.social {
+    margin-bottom: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+article.body div.lienket span a , article.body div.social span a{
+    cursor: pointer;
+    font-family: 'Roboto-Bold';
+    color: #262626;
+    transition: all 0.4s;
+}
+
+article.body div.lienket span a:hover, article.body div.social span a:hover {
+    color: #FCD700;
+}
+
+article.body div.social {
+    margin-bottom: 50px;
+}
+
+
+
+/**FORM**/
+article.body div.input form {
+    width: 371px;
+    min-height: 100px;
+}
+
+article.body div.input form div {
+    margin: 10px 0;
+}
+
+article.body div.input p {
+    font-family: 'Roboto-Bold';
+    font-size: 22px;
+    color: #262626;
+}
+
+article.body div.input form p {
+    font-family: 'Roboto-Regular';
+    font-size: 18px;
+    color: #262626;
+}
+
+input {
+    width: 347px;
+    border: none;
+    padding: 12px;
+    outline: none;
+}
+
+article.body div.input form input[type=submit] {
+    cursor: pointer;
+    width: 50px;
+    background-color: #FCD700;
+    transition: all 0.4s;
+}
+
+article.body div.input form input[type=submit]:hover {
+    color: white;
+    background-color: #262626;
+}

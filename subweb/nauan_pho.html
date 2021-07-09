@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nấu ăn</title>
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../icon/logoamthucvietnam(loai2comau).ico" type="image/png">
+</head>
+<body>
+    <header id="header">
+        <a href=""><img src="Images/Logo/logoamthucvietnam(loai1comau).png" alt="" id="logo"></a>
+        <ul>
+            <li><a href="../index.html">Trang chủ</a></li>
+            <li><a href="../khampha.html">Khám phá</a></li>
+            <li><a href="../thucdon.html">Thực đơn</a></li>
+            <li><a href="../nauan.html">Nấu ăn</a></li>
+            <li><a href="../lienhe.html">Liên hệ</a></li>
+            <li><a href="../thongtin.html">Thông tin</a></li>
+        </ul>
+    </header>
+    <article class="main" id="scrollmain">
+        <div class="name_logo" id="name_logo">
+            <p id="name">NẤU ĂN</p>
+            <p id="lk">
+                <a href="#">Miền Bắc </a>
+                <span> | </span>
+                <a href="#"> Miền Trung </a>
+                <span> | </span>
+                <a href="#"> Miền Nam</a>
+            </p>
+        </div>
+        <div class="hd" id="hd" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+            <p id="hv">Cuộn xuống để xem thêm</p>
+            <p id="ahv"><img src="Icon/Icon2.png" alt=""></p>
+        </div>
+    </article>
+    <article class="body">
+        <article class="dau">
+            <section>
+                <div class="img">
+                    <img src="../doan/pho/pho1.jpg" alt="">
+                </div>
+                <div class="inf">
+                    <div id="ti">
+                            <p>Phở</p>
+                    </div>
+    
+                    <div id="tt">
+                        <p>
+                            là một món ăn truyền thống của Việt Nam, có nguồn gốc từ Hà Nội và Nam Định, và được xem là một trong những món ăn tiêu biểu cho nền ẩm thực Việt Nam.
+                        </p>
+                    </div>
+                </div>
+            </section>
+    
+            <aside>
+                <div class="sc">
+                    <div id="au">
+                        <p id="ti">Độ khó trung bình(do khảo sát): </p>
+                        <div class="sc1">
+                            <p id="ct">(5 là khó nhất, 1 là dễ nhất)</p>
+                            <p id="sc1">3</p>
+                        </div>
+                        <div id="bor"></div>
+                    </div>
+                    <div id="ma">
+                        <p id="ti">Độ khó(do bạn chọn): </p>
+                            <form action="#">
+                                <input type="range" min="1" max="5">
+                                <br>
+                                <input type="submit" value="Gửi">
+                            </form>
+                        <div id="bor"></div>
+                    </div>
+                    <div id="text">
+                        <p id="mot">
+                            <span id="mot_01">Nguyên liệu</span>
+                        </p>
+    
+                        <p id="hai">
+                            <br>
+                            Xương ống bò, bò phi lê, bò bắp, bánh phở, hành tây, sả tây, hành tím, gừng, thảo mộc
+                        </p>
+                    </div>
+                    <div id="vo">
+    
+                    </div>
+                </div>
+    
+                <div class="wt">
+                    <div id="wt_tx">
+                        <p>
+                            Bạn đã thấy thích món này chưa?
+                        </p>
+                    </div>
+                    <div class="y">
+                        <form action="#">
+                            <input type="submit" value="Rồi">
+                        </form>
+                    </div>
+                    <div class="n">
+                        <form action="#">
+                            <input type="submit" value="Chưa">
+                        </form>
+                    </div>
+                </div>
+            </aside>
+                
+        </article>
+    
+        <div id="cb">
+            <p>Các món có liên quan: </p>
+        </div>
+    
+        <article class="giua">
+            <section>
+                <div class="sel">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Mì quảng</h3>
+                        <p>được xác định ngay từ tên gọi, mì quảng là món ăn bắt nguồn từ...</p>
+                    </div>
+                </div>
+                <div class="click1">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <div style="text-align: center;">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </section>
+        </article>
+    
+        <div id="nl">
+            <p>Nguyên Liệu: </p>
+        </div>
+    
+        <article class="chuthich">
+            <section>
+                <div class="nl">
+                    <p id="te">Thịt bò</p>
+                    <p id="luong">500</p>
+                    <p id="donvi">gram</p>
+                </div>
+    
+                <div class="nl">
+                    <p id="te">Xương bò</p>
+                    <p id="luong">2</p>
+                    <p id="donvi">kilogram</p>
+                </div>
+    
+                <div class="nl">
+                    <p id="te">Hành tây</p>
+                    <p id="luong">2</p>
+                    <p id="donvi">Củ</p>
+                </div>
+    
+                <div class="nl">
+                    <p id="te">Gừng tươi</p>
+                    <p id="luong">100</p>
+                    <p id="donvi">gram</p>
+                </div>
+    
+                <div class="nl">
+                    <p id="te">Hat cây rau mùi</p>
+                    <p id="luong">2</p>
+                    <p id="donvi">1 muỗng cà phê</p>
+                </div>
+    
+                <div class="nl">
+                    <p id="te">Rễ cây rau mùi</p>
+                    <p id="luong">6</p>
+                    <p id="donvi">rễ</p>
+                </div>
+    
+                <div class="nl">
+                    <p id="te">Thảo quả</p>
+                    <p id="luong">2</p>
+                    <p id="donvi">quả</p>
+                </div>
+    
+                <div class="nl">
+                    <p id="te">Hoa hồi</p>
+                    <p id="luong">2</p>
+                    <p id="donvi">hoa</p>
+                </div>
+    
+                <div class="nl">
+                    <p id="te">Quế khô</p>
+                    <p id="luong">5</p>
+                    <p id="donvi">gram</p>
+                </div>
+    
+                <div class="nl">
+                    <p id="te">Mía</p>
+                    <p id="luong">2</p>
+                    <p id="donvi">lóng</p>
+                </div>
+    
+                <div class="nl">
+                    <p id="te">Bánh phở</p>
+                    <p id="luong">1</p>
+                    <p id="donvi">kilogram</p>
+                </div>
+    
+                <div class="nl">
+                    <p id="te">Chanh</p>
+                    <p id="luong">2</p>
+                    <p id="donvi">trái</p>
+                </div>
+            </section>
+        </article>
+    
+        <div id="cb">
+            <p>Chế biến: </p>
+        </div>
+    
+        <article class="cuoi">
+            <section>
+                <div class="img"></div>
+                <div class="ti">
+                    <h1>Bước 1: Sơ chế nguyên liệu</h1>
+                </div>
+                <div class="tt">
+                        <ul class="hd">
+                            <li>Xương bò sau khi mua về cho vào nồi nước nấu khoảng 5 phút sau đó mang ra rửa sạch bằng nước ấm. Không nên rửa xương bò dưới nước lạnh, tránh xương bò bị hôi.</li>
+                            <li>Hành tây, hành tím, gừng, mía sau khi mua về để nguyên vỏ nướng chín. Sau đó cạo sạch vỏ gừng và hành rửa sạch để ráo. Cắt lát gừng, hành tây bổ đôi để riêng. Mía để ráo nước thì róc vỏ, chẻ miếng.</li>
+                            <li>Nhặt hành lá, rau mùi rửa sạch, để ráo rồi thái nhỏ để riêng.</li>
+                            <li>Rang hoa hồi, quế, thảo quả, hạt rau mùi ở lửa nhỏ đến khi có mùi thơm rồi cho vào một túi vải buộc chặt.</li>
+                        </ul>
+                </div>
+            </section>
+    
+            <section>
+                <div class="img"></div>
+                <div class="ti">
+                    <h1>Bước 2: Làm nước dùng phở</h1>
+                </div>
+                <div class="tt">
+                    <ul class="hd">
+                        <p>Nước dùng phở làm nên hồn cốt của phở. Vì thế, để có một bát phở ngon đặc trưng, bạn tuyệt đối chú ý đến khâu này nhé!</p>
+                        <br>
+                        <li>Cho xương bò vào nồi hầm để hầm trong khoảng 30 phút. Sau đó cho các gia vị hành tây, mía, gừng, rễ cây mùi, túi vải hỗn hợp các gia vị đã chuẩn bị ở trên vào nồi.</li>
+                        <li>Khi nước sôi bạn hớt bớt bọt và vặn lửa nhỏ, hầm trong khoảng 2 - 3 tiếng. Chú ý nêm nếm gia vị đầy đủ sao cho vừa miệng.</li>
+                        <li>Thịt bò bạn thái mỏng theo thớ ngang và cho vào nồi phở đang sôi cho chín. Hoặc để làm phở bò tái bạn trần qua thịt bò với nước sôi rồi để riêng.</li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section>
+                <div class="img"></div>
+                <div class="ti">
+                    <h1>Bước 3: Hoàn thành</h1>
+                </div>
+                <div class="tt">
+                    <ul class="hd">
+                        <li>Bạn chần phở qua nước sôi rồi xếp vào bát. Khi ăn, bạn cho thịt bò chín hoặc thịt bò tái đã trần ở trên vào bát, sau đó cho các loại rau thơm lên. Rồi chan nước dùng còn đang nóng lên.</li>
+                        <li>Khi ăn bạn có thể ăn cùng quẩy, rau sống, giá, chanh, ớt, tương ớt… sẽ rất ngon.</li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </article>
+    
+
+    <footer style="z-index: 0;">
+        <article class="footer">
+            <div class="lh"><a href="#">LIÊN HỆ</a></div>
+            <div class="ver_line"></div>
+            <div class="tt"><a href="#">THÔNG TIN</a></div>
+        </article>
+        <div class="name">
+            <p><span style="color: #C92F2F;">ẨMTHỰC</span> BAMIỀN</p>
+            <p>CẢM ƠN CÁC BẠN!</p>
+        </div>
+
+        <div id="v_line"></div>
+
+        <div class="social">
+            <p>Liên hệ với tôi qua mạng xã hội</p>
+            <a href="https://www.facebook.com/tunanguyen19" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/_tunanguyen_/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/channel/UCloHEBIndtnFA6skt9wKw_g/videos" class="fa fa-youtube"></a>
+            <a href="https://www.behance.net/tngnguyn55" class="fa fa-behance"></a>
+        </div>
+
+        <div id="v_line"></div>
+
+        <div class="cpright"><p>&copy;2020, Nguyen Anh Tuan</p></div>
+    </footer>
+    <script src="../js/header.js"></script>
+</body>
+</html>

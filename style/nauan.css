@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url(../fonts/Franklin-Gothic-Heavy-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic';
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 1903px;
+    min-height: 300vh;
+    margin: 0 auto;
+}
+
+article.main {
+    background-image: url(../images/Banner/nauan.jpg);
+}
+
+article.body p, article.body a, article.body li, article.body span {
+    font-family: 'Roboto-Regular';
+}
+
+/*Body*/
+article.body {
+    width: 1903px;
+    min-height: 2500px;
+    z-index: 1;
+    background-color: rgb(241, 241, 241);
+    padding: 200px 0;
+}
+/*Gioi thieu*/
+article.body article.gthieu {
+    position: relative;
+    width: 1280px;
+    min-height: 849px;
+    margin: 0 auto;
+}
+
+article.body article.gthieu div.gthieu_title {
+    width: 1280px;
+}
+
+article.body article.gthieu div.gthieu_title p {
+    font-family: 'Roboto-Black';
+    cursor: default;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: justify;
+    color: #262626;
+}
+
+article.body article.gthieu div.gthieu_text  {
+    margin: 20px 0;
+    width: 1240px;
+    padding: 20px;
+}
+
+article.body article.gthieu div.gthieu_text p {
+    cursor: default;
+    text-align: justify;
+    font-size: 22px;
+    color: gray;
+}
+
+article.body article.gthieu div.gthieu_text2 {
+    position: absolute;
+    z-index: 1;
+    margin: 20px 0;
+    width: 550px;
+    height: 297px;
+    float: left;
+}
+
+article.body article.gthieu div.gthieu_text2 p {
+    cursor: default;
+    font-size: 22px;
+    font-weight: normal;
+    color: #262626;
+    text-align: justify;
+}
+
+article.body article.gthieu div.circle {
+    position: absolute;
+    left: 515px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #FCD700;
+    border-radius: 100px;
+    z-index: 0;
+}
+
+article.body article.gthieu div.box {
+    float: right;
+    margin: 20px 0;
+    width: 700px;
+    height: 297px;
+    background: white;
+}  
+
+article.body article.gthieu div.gthieu_img {
+    clear: both;
+    width: 1280px;
+    height: 365px;
+    background-color: #FCD700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/*TOP 3*/
+article.body article.top3 {
+    position: relative;
+    margin: 0 auto;
+    width: 1280px;
+    height: 720px;
+}
+
+article.body article.top3 div.top3_img {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    z-index: 0;
+}
+
+article.body article.top3 div.top3_img img {
+    width: 1280px;
+    height: 720px;
+}
+
+article.body article.top3 div.top3_text {
+    cursor: default;
+    position: absolute;
+    width: 1280px;
+    bottom: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+article.body article.top3 div.top3_text p {
+    font-size: 98px;
+    font-family: 'Roboto-Black';
+    color: white;
+}
+
+article.body article.top3 div.top3_text a {
+    margin-left: 10px;
+    font-size: 22px;
+    font-family: 'Roboto-Bold';
+    color: white;
+}
+
+article.body article.top3 div.top3_text a:hover {
+    text-decoration: 2px underline #FCD700;
+}
+
+
+/*Lựa chọn*/
+article.body article.luachon {
+    margin: 0 auto;
+    width: 1280px;
+    min-height: 130px;
+}
+
+article.body article.luachon div.luachon_loai {
+    margin-bottom: 20px;
+    width: 740px;
+    min-height: 80px;
+}
+
+article.body article.luachon div.luachon_loai p {
+    font-family: 'Roboto-Bold';
+    font-size: 22px;
+    color: #262626;
+    margin-bottom: 10px;
+}
+
+article.body article.luachon div.luachon_loai p#luachon_doan {
+    width: 70px;
+    border-bottom: 2px solid #FCD700;
+}
+
+article.body article.luachon div.luachon_loai p#luachon_thucuong {
+    width: 130px;
+    border-bottom: 2px solid #FCD700;
+}
+
+article.body article.luachon div.luachon_loai a {
+    display: inline-block;
+    width: 175px;
+    height: 20px;
+    font-size: 22px;
+    color: gray;
+    transition: all 0.4s;
+    margin: 5px 0;
+}
+
+article.body article.luachon div.luachon_loai a:hover {
+    color: #262626;
+    text-decoration: #FCD700 underline 2px;
+}
+
+
+
+
+
+
+/*Loại đồ ăn*/
+article.body div.loai_title {
+    width: 1280px;
+    height: 66px;
+    margin: 36px auto;
+}
+
+article.body div.loai_title p {
+    font-family: 'Roboto-Bold';
+    cursor: default;
+    font-size: 55px;
+    font-weight: bold;
+    color: #262626;
+    width: 485px;
+    border-bottom: 5px solid #FCD700;
+}
+
+article.body article.loai {
+    margin: 0 auto;
+    width: 1280px;
+    min-height: 1302px;
+}
+
+article.body article.loai div.loai_doan {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+article.body article.loai div.loai_img {
+    width: 300px;
+    height: 168.75px;
+    background-color: #FCD700;
+}
+
+article.body article.loai div.loai_img img {
+    width: 300px;
+    height: 168.75px;
+}
+
+article.body article.loai div.loai_name {
+    width: 270px;
+    padding: 15px;
+}
+
+article.body article.loai div.loai_name p {
+    color: #262626;
+}
+
+article.body article.loai div.loai_name p:first-child {
+    font-family: 'Roboto-Bold';
+    font-size: 22px;
+}
+
+.checked {
+    color: #FCD700;
+}
+
+article.body article.loai div.loai_rate {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 10px;
+    width: 270px;
+    padding: 15px;
+}
+
+article.body article.loai div.loai_rate span {
+    cursor: default;
+    color: gray;
+}
+
+article.body article.loai div.loai_rate span:last-child img {
+    vertical-align: text-bottom;
+    width: 20px;
+    height: 20px;
+}
+
+
+article.body article.loai div.loai_nau a {
+    display: block;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    background-color: #FCD700;
+    bottom: -40px;
+    font-family: 'Roboto-Bold';
+    color: #262626;
+    transition: all 0.4s;
+}
+
+article.body article.loai div.loai_nau a:hover {
+    background-color: #262626;
+    color: white;
+    bottom: 0px;
+}
+
+article.body article.loai div.loai_relax {
+    float: left;
+    width: 620px;
+    height: 380px;
+    margin: 10px;
+    background-color: white;
+}
+
+/*More*/
+article.body  article.loai div#more {
+    margin: 0 auto;
+    width: 140px;
+    height: 50px;
+}
+
+article.body  article.loai div#more  a {
+    font-family: 'Roboto-Bold';
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #262626;
+    font-size: 20px; 
+    color: #262626; 
+    margin: 50px 0 0 0; 
+    display: inline-block;
+    transition: all 0.4s;
+    background-color: #FCD700;
+    text-align: center;
+}
+
+article.body  article.loai div#more  a:hover {
+    color: white;
+    background-color: #262626;
+}

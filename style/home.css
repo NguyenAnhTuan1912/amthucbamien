@@ -1,0 +1,716 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url(../fonts/Franklin-Gothic-Heavy-Regular.ttf);
+}
+
+
+/* width */
+article.nauan > div.big::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+article.nauan > div.big::-webkit-scrollbar-track {
+    background: #e4e4e4;
+  }
+  
+  /* Handle */
+article.nauan > div.big::-webkit-scrollbar-thumb {
+    background: #262626;
+  }
+  
+  /* Handle on hover */
+article.nauan > div.big::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic';
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 1903px;
+    min-height: 300vh;
+}
+
+article.main {
+    background-image: url(../images/Banner/home.jpg);
+}
+
+/**Phan than duoi trang chu**/
+article.body {
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    width: 1903px;
+    min-height: 100vh;
+    padding: 100px 0 0 0;
+    z-index: 4;
+}
+
+article.body p, article.body span, article.body a {
+    font-family: 'Roboto-Regular';
+}
+
+article.body article.banhmipho {
+    width: 980px;
+    min-width: 100vh;
+    margin: 100px auto 30px auto;
+}
+
+article.body article.banhmipho div.name {
+    width: 980px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+article.body article.banhmipho div.name p {
+    font-weight: bold;
+    font-size: 98px;
+    color: #262626;
+}
+
+article.body article.banhmipho div.thongtin {
+    width: 760px;
+    margin: 0 auto;
+}
+
+article.body article.banhmipho div.thongtin p {
+    text-align: justify;
+    font-size: 22px;
+    color: #3d3d3d;
+}
+
+article.body article.banhmipho div.name1 {
+    margin: 0 auto;
+    width: 760px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #262626;
+}
+
+/**Ket thuc phan than duoi trang chu**/
+
+
+/**Phan dan nhap**/
+article.body div.dn {
+    cursor: default;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262626;
+    box-shadow: 0px 0px 5px -2px black;
+    font-size: 30px;
+    width: 1903px;
+    height: 300px;
+    overflow: hidden;
+}
+
+article.body div.dn p {
+    color: white;
+    position: absolute;
+    margin: 113px 245px 113px 245px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+/**Ket thuc phan dan nhap**/
+
+
+
+
+
+/**Phan chinh anh**/
+article.body article.banhmipho div.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 980px;
+}
+
+article.body article.banhmipho div.img img {
+    align-items: center;
+    margin: 0 auto;
+}
+
+/**Ket thuc phan chinh anh**/
+
+
+
+
+/**Bat dau phan kham pha**/
+article.khampha {
+    width: 100%;
+    min-height: 74vh;
+    background-color: rgb(241, 241, 241);
+}
+
+article.khampha div.equal {
+    position: relative;
+    cursor: pointer;
+    width: 500px;
+    min-height: 375px;
+    float: left;
+    margin: 50px 67.166667px 50px 67.166667px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px -2px black;
+}
+
+article.khampha div.equal div#img div.new {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to top, #262626, transparent);
+    width: 500px;
+    height: 100px;
+    z-index: 2;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+article.khampha div.equal div.text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+article.khampha div.equal div.text p#name{
+    color: #FCD700;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+article.khampha div.equal div.text span#tx {
+    font-size: 19px;
+}
+
+article.khampha div.equal img#lo {
+    position: absolute;
+    width: 500px;
+    height: 375px;
+    transition: all 0.4s;
+}
+
+article.khampha div.more {
+    width: 100%;
+    text-align: center;
+}
+
+article.khampha div.more div#m1 {
+    width: 500px;
+    float: left;
+    margin: -20px 67.166667px 0 67.166667px;
+}
+
+article.khampha div.more div#m1 a {
+    color: #262626;
+    transition: all 0.4s;
+}
+
+article.khampha div.more div#m1 a:hover {
+    color: #FCD700;
+}
+
+/**Ket thuc phan kham pha**/
+
+
+
+article.body  p.out  a#main {
+    font-family: 'Roboto-Bold';
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #262626;
+    font-size: 20px; 
+    color: #262626; 
+    margin: 50px 0 0 0; 
+    display: inline-block;
+    transition: all 0.4s;
+    background-color: #FCD700;
+}
+
+article.body p.out a#main:hover {
+    color: white;
+    background-color: #262626;
+}
+
+
+
+
+
+/**Phan thực đơn**/
+article.thucdon {
+    width: 100%;
+    min-height: 74vh;
+    background-color: rgb(241, 241, 241);
+}
+
+article.thucdon div.biggest {
+    position: relative;
+    cursor: default;
+    width: 980px;
+    height: 551.25px;
+    margin: 50px auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px -2px black;
+    z-index: 0;
+}
+
+article.thucdon div.biggest div#img {
+    position: absolute;
+    width: 980px;
+    height: 551.25px;
+    z-index: 1;
+}
+
+article.thucdon div.biggest div.button {
+    position: absolute;
+    width: 980px;
+    z-index: 2;
+}
+
+article.thucdon a.prev {
+    float: left;
+    cursor: pointer;
+    width: auto;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+    padding: 10px;
+    margin: 245.625px 0;
+    transition: all 0.4s;
+}
+
+article.thucdon a.next {
+    float: right;
+    cursor: pointer;
+    width: auto;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 5px 0 0 5px;
+    user-select: none;
+    padding: 10px;
+    margin: 245.625px 0;
+    transition: all 0.4s;
+}
+
+a.prev:hover, a.next:hover {
+    background-color: #FCD700;
+    color: #262626;
+}
+
+article.thucdon div.biggest div.dmain {
+    position: absolute;
+    width: 980px;
+    bottom: 5px;
+    text-align: center;
+    z-index: 3;
+}
+
+article.thucdon div.biggest div.dmain span.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+article.thucdon div.biggest div#img div.text_thucdon {
+    position: absolute;
+    width: 560px;
+    opacity: 0;
+    z-index: 2;
+}
+article.thucdon div.biggest div#img div.text_thucdon div#nen {
+    top: 0;
+    z-index: 1; 
+    background-color: #262626; 
+    opacity: 30%; 
+    height: 551.25px; 
+    width: 980px; 
+    position: absolute;
+}
+
+article.thucdon div.biggest div#img div.text_thucdon div#tx3 > p {
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+    z-index: 2;
+} article.thucdon div.biggest div#img div.text_thucdon div#tx3 > p#h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FCD700;
+} article.thucdon div.biggest div#img div.text_thucdon div#tx3  > p#para {
+    top: 370px;
+    font-size: 20px;
+    color: rgb(238, 238, 238);
+}
+
+
+article.thucdon div.biggest div#img div.text_thucdon img {
+    width: 980px;
+    height: 551.25px;
+}
+
+.active {
+    background-color: white;
+}
+
+article.thucdon div.medium {
+    width: 1903px;
+    height: 598px;
+    min-height: 120px;
+    margin: 35px 0;
+    background-color: white;
+}
+
+article.thucdon div.medium div.thucdoncon {
+    cursor: default;
+    float: left;
+    width: 300px;
+    min-height: 50px;
+    margin: 40px 87.875px 40px 87.875px;
+}
+
+article.thucdon div.medium div.thucdoncon div#list {
+    border-top: 1px dashed #262626;
+    margin: 10px 10px 2px 10px;
+}
+
+article.thucdon div.medium div.thucdoncon div#list ul {
+    margin: 5px 0;
+    font-family: 'Roboto-Regular';
+    list-style: none;
+}
+
+article.thucdon div.medium div.thucdoncon div#list ul li {
+    font-family: 'Roboto-Regular';
+    text-align: right;
+    font-weight: bold;
+}
+/**Ket thuc phan thuc don**/
+
+
+
+
+
+
+
+
+
+/*Bat dau phan mau an*/
+
+/*TOP3*/
+article.body div.top3 {
+    position: relative;
+    margin: 20px auto;
+    width: 1015.656px;
+    height: 571.3065px;
+}
+
+article.body div.top3 div.top3_img {
+    position: absolute;
+    width: 1015.656px;
+    height: 571.3065px;
+    z-index: 0;
+}
+
+article.body div.top3 div.top3_img img {
+    width: 1015.656px;
+    height: 571.3065px;
+}
+
+article.body div.top3 div.top3_text {
+    cursor: default;
+    position: absolute;
+    min-width: 280px;
+    bottom: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+article.body div.top3 div.top3_text p {
+    font-size: 55px;
+    font-family: 'Roboto-Black';
+    color: white;
+}
+
+article.body div.top3 div.top3_text a {
+    margin-left: 10px;
+    font-size: 22px;
+    font-family: 'Roboto-Bold';
+    color: white;
+}
+
+article.body div.top3 div.top3_text a:hover {
+    text-decoration: 2px underline #FCD700;
+}
+
+/*KET THUC TOP 3*/
+/*BOX*/
+article.body article.nauan div#tle_medium div.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    width: 552px;
+    height: 571.3065px;
+    background-color: white;
+}
+
+article.body article.nauan div#tle_medium div.box p {
+    font-size: 55px;
+    color: #262626;
+    font-family: 'Roboto-Bold';
+    transform: rotate(-90deg);
+}
+/*KET THUC BOX*/
+
+
+
+
+article.nauan {
+    width: 1903px;
+    min-height: 100vh;
+    background-color: rgb(241, 241, 241);
+}
+
+article.nauan > div#tle_big {
+    width: 1015.656px;
+    margin: 100px 83.833333px 0px 83.833333px;
+    float: left;
+}
+article.nauan > div#tle_big > p:first-child {
+    color: #262626;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+article.nauan > div#tle_medium {
+    float: right;
+    width: 552px;
+    margin: 100px 83.833333px 0 83.833333px;
+}
+
+article.nauan > div#tle_medium > p {
+    color: #262626;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+article.nauan > div.big {
+    width: 975.666667px;
+    height: 932px;
+    margin: 0 83.833333px 50px 83.833333px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 20px 20px 20px;
+    border-top: 4px solid #FCD700;
+    overflow-y: scroll;
+    float: left;
+}
+
+article.nauan > div.big > div.big_page{
+    width: 400px;
+    min-height: 300px;
+    float: left;
+    overflow: hidden;
+    margin: 0 41.914px 0 41.914px;
+}
+
+article.nauan > div.big > div.big_page > div.mau {
+    width: 400px;
+    height: 300px;
+    background-color: #262626;
+    opacity: 0;
+    z-index: 2;
+}
+
+article.nauan > div.big > div.big_page > div#img3 > img {
+    width: 400px;
+    height: 300px;
+    z-index: 1;
+}
+
+article.nauan > div.big > div.big_page > div#name3 {
+    margin-top: 10px;
+    width: 400px;
+    color: #262626;
+    text-align: center;
+}
+
+article.nauan > div.big > div.big_page > div#text3 {
+    margin: 10px 0;
+    width: 360px;
+    height: 120px;
+    overflow: hidden;
+    padding: 0 20px 10px 20px;
+}
+
+article.nauan > div.big > div.big_page > div#text3 > ul, li {
+    font-family: 'Roboto-Regular';
+    font-size: 18px;
+    list-style: none;
+}
+
+article.nauan > div.big > div.big_page > div#text3 > ul > li {
+    color: grey;
+    text-align: justify;
+}
+
+article.nauan > div.big > div.big_page > div#text3 > ul > li a {
+    color: #262626;
+    transition: all 0.4s;
+}
+
+article.nauan > div.big > div.big_page > div#text3 > ul > li a:hover {
+    color: #FCD700;
+}
+
+
+article.nauan > div.medium {
+    float: right;
+    width: 531.999997px;
+    height: 600px;
+    background-color: white;
+    border-top: 4px solid #FCD700;
+    margin: 0 83.833333px 50px 83.833333px;
+    padding: 50px 10px 0 10px;
+}
+
+article.nauan > div.medium > div.medium_page {
+    width: 530px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding: 20px 0;
+}
+
+article.nauan > div.medium > div.medium_page >div#stt {
+    float: left;
+    width: 40px;
+    height: 100px;
+}
+
+article.nauan > div.medium > div.medium_page >div#stt > p {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FCD700;
+}
+
+article.nauan > div.medium > div.medium_page >div#name4 {
+    float: left;
+    width: 300px;
+    height: 50px;
+}
+
+article.nauan > div.medium > div.medium_page >div#name4 > p {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FCD700;
+}
+
+article.nauan > div.medium > div.medium_page >div#ab {
+    float: left;
+    width: 300px;
+    height: 50px;
+    color: gray;
+    font-size: 18px;
+}
+
+article.nauan > div.medium > div.medium_page >div#ab > span img {
+    width: 22px;
+    height: 22px;
+    vertical-align: text-bottom;
+}
+
+article.nauan > div.medium > div.medium_page >div.sc {
+    float: right;
+    width: 120px;
+    height: 80px;
+    padding: 10px 0px;
+}
+
+article.nauan > div.medium > div.medium_page >div.sc > p {
+    text-align: center;
+    color: #262626;
+    font-weight: bold;
+    border-left: 1px dashed gray;
+}
+
+article.nauan > div.medium > div.medium_page >div.sc > p > a {
+    color: #262626;
+    transition: all 0.4s;
+}
+
+article.nauan > div.medium > div.medium_page >div.sc > p > a:hover {
+    color: #FCD700;
+}
+
+article.nauan > div.medium > div.change_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 19px;
+    border-top: 1px dashed gray;
+}
+
+article.nauan > div.medium > div.change_page span {
+    cursor: pointer;
+    text-align: center;
+    line-height: 21px;
+    width: 21px;
+    height: 21px;
+    color: gray;
+    transition: all 0.4s;
+}
+
+article.nauan > div.medium > div.change_page span:hover {
+    color: #262626;
+    background-color: #FCD700;
+}
+/*Ket thuc phhan nau an*/
+
+
+
+
+
+/*Bat dau phan footer*/
+
+/*Ket thuc phan footer*/

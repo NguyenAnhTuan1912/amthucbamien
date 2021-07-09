@@ -4,178 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lien he</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/style2.css">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="style/lienhe.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="icon/logoamthucvietnam(loai2comau).ico" type="image/png">
 </head>
 <body>
-    <header>
-        <div>
-            <img src="Images/banner.jpg" alt="">
+    <article class="body">
+        <div class="logo">
+            <img src="images/Logo/logoamthucvietnam(loai1comau).gif" alt="">
         </div>
-    </header>
-
-    <nav>
-        <div class="menu">
-            <ul>
-                <li><a href="trangchu.html">Home</a>
-                    <ul class="smenu">
-                        <li><a href="#">Lựa chọn 1</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">About</a>
-                    <ul class="smenu">
-                        <li><a href="#">Lựa chọn 1</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Product</a>
-                    <ul class="smenu">
-                        <li><a href="#">Lựa chọn 1</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">News</a>
-                </li>
-                <li><a href="#">Contract</a>
-                    </ul>
-                </li>
-            </ul>
+        <div class="lienket">
+            <span><a href="index.html">Trang chủ</a></span>
+            <span><a href="khampha.html">Khám phá</a></span>
+            <span><a href="thucdon.html">Thực đơn</a></span>
+            <span><a href="nauan.html">Nấu ăn</a></span>
+            <span><a href="lienhe.html">Liên hệ</a></span>
+            <span><a href="thongtin.html">Thông tin</a></span>
         </div>
-    </nav>
-
-    <article>
-        <div class="slide">
-            <div>
-                <img src="Images/slider/1.jpg" alt="" id="1" style="opacity: 1;">
-                <img src="Images/slider/2.jpg" alt="" id="2">
-                <img src="Images/slider/3.jpg" alt="" id="3">
-                <img src="Images/slider/4.jpg" alt="" id="4">
-                <img src="Images/slider/5.jpg" alt="" id="5">
-                <img src="Images/slider/6.jpg" alt="" id="6">
-                <img src="Images/slider/7.jpg" alt="" id="7">
-                <img src="Images/slider/8.jpg" alt="" id="8">
-                <img src="Images/slider/9.jpg" alt="" id="9">
-            </div>
-            
-            <img src="Images/slider/prev.png" alt="" onclick="ButtonPlus(-1)" id="pre">
-            <img src="Images/slider/next.png" alt="" onclick="ButtonPlus(1)" id="nex">
+        <div class="social">
+            <p>Liên hệ với tôi qua:</p>
+            <span><a href="https://www.facebook.com/tunanguyen19">Facebook</a></span>
+            <span><a href="https://www.instagram.com/_tunanguyen_/">Instagram</a></span>
+            <span><a href="https://www.youtube.com/channel/UCloHEBIndtnFA6skt9wKw_g/videos">Youtube</a></span>
+            <span><a href="https://www.behance.net/tngnguyn55">Behance</a></span>
         </div>
-        <script src="/slide.js"></script>
-        <section>
-            <div class="title">
-                <p>Hãy đăng kí bằng cách điền vào form này</p>
-            </div>
-
-            <div class="dangki">
-                <div class="form">
-                    <form action="#" name="form" method="post" onsubmit="return Form()" required>
-                        <table>
-                            <tr>
-                                <td><p id="name">Tên: </p></td>
-                                <td><input type="text" placeholder="Điền tên của bạn" name="fname"></td>
-                            </tr>
-                            <tr class="alert">
-                                <td><p style="color: red;">Ô này không được trống!</p></td> 
-                                <td><p style="color: red;">Không được có kí tự đặc biệt</p></td> 
-                            </tr>
-                            <tr>
-                                <td><p id="name">Họ đệm: </p></td>
-                                <td><input type="text" placeholder="Điền họ đệm của bạn" name=""></td>
-                            </tr>
-                            <tr class="alert">
-                                <td><p style="color: red;">Ô này không được trống!</p></td>  
-                            </tr>
-                            <tr>
-                                <td><p id="name">Email: </p></td>
-                                <td><input type="email" placeholder="Điền email của bạn" name=""></td>
-                            </tr>
-                            <tr class="alert">
-                                <td><p style="color: red;">Sai cú pháp Email</p></td>  
-                            </tr>
-                            <tr>
-                                <td><p id="name">Địa chỉ: </p></td>
-                                <td><input type="text" placeholder="Điền địa chỉ của bạn" name=""></td>
-                            </tr>
-                            <tr>
-                                <td><p id="name">Ngày sinh: </p></td>
-                                <td><input type="date"></td>
-                            </tr>
-
-                            <tr>
-                                <td><input type="submit" value="Gửi"></td>
-                                <td><input type="reset" value="Hủy"></td>
-                            </tr>
-                        </table>
-                    </form>
+        <div class="input">
+            <p>Liên hệ với chúng tôi trực tiếp tại đây:</p>
+            <form action="#" method="post">
+                <div class="name">
+                    <p>Tên của bạn:</p>
+                    <input type="text" id="name">
                 </div>
-        </section>     
-        
-        <aside>
-            <div class="title_right">
-                <p>News technology</p>
-            </div>
-            <div class="news">
-                <div class="img">
-                    <a href="#">
-                        <img src="Images/oppof3.png" alt="">
-                    </a>
-                </div>
-                <p>
-                    <a href="#">What do get With 7.5 million buy OPPO F3 users?</a>
-                </p>
-            </div>
-            <div class="news">
-                <div class="img">
-                    <a href="#">
-                        <img src="Images/samsungs8.png" alt="">
-                    </a>
-                </div>
-                <p>
-                    <a href="#">FPT Shop will be offering F-Plus for Galaxy S8 / S8 + customers from in September 2017!</a>
-                </p>
-            </div>
-            <div class="news">
-                <div class="img">
-                    <a href="#">
-                        <img src="Images/pmh.png" alt="">
-                    </a>
-                </div>
-                <p>
-                    <a href="#">FPT Shop donates 1,500 coupon 800,000 VND for customers to receive Galaxy S8 on the first day of sale on Wednesday, December 3rd, 2017</a>
-                </p>
-            </div>
-            <div class="news">
-                <div class="img">
-                    <a href="#">
-                        <img src="Images/aothung.png" alt="">
-                    </a>
-                </div>
-                <p>
-                    <a href="#">Come to experience Galaxy S8: just get T-shirt and have chance to hit 8 S8 Plus at FPT Shop!</a>
-                </p>
-            </div>
-            <div class="news">
-                <div class="img">
-                    <a href="#">
-                        <img src="Images/dulich.png" alt="">
-                    </a>
-                </div>
-                <p>
-                    <a href="#">FPT Shop added 8 gifts to the US for Galaxy S8 / S8 Plus reservations</a>
-                </p>
-            </div>
-        </aside>
+                <div class="text">
+                    <p>Điều mà bạn muốn chia sẽ với tôi:</p>
+                    <input type="text" id="text">
+                </div> 
+                    <input type="submit" value="Gửi" id="text">     
+            </form>
+        </div>
     </article>
-
-    <footer>
-        <div>
-            <p>
-                Họ và Tên: Nguyễn Anh Tuấn<br>
-                Lớp: 20DTH5<br>
-                Mã số sinh viên: 162001473
-            </p>
-        </div>
-    </footer>
-    <script src="JS/Slide.js"></script>
-    <script src="JS/form.js"></script>
 </body>
 </html>

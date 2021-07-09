@@ -1,0 +1,344 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url(../fonts/Franklin-Gothic-Heavy-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic';
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0 auto;
+    width: 1903px;
+    min-height: 300vh;
+}
+
+article.main {
+    background-image: url(../images/Banner/khampha.jpg);
+}
+
+article.body p, article.body a, article.body span, article.body sup {
+    font-family: 'Roboto-Regular';
+}
+
+
+/*Phan body*/
+article.body {
+    position: relative;
+    width: 1903px;
+    min-height: 1500px;
+    background-color: rgb(241, 241, 241);
+    padding: 100px 0 0 0;
+    z-index: 4;
+}
+
+/*Phan dan nhap*/
+article.dn {
+    cursor: default;
+    position: relative;
+    width: 1903px;
+    min-height: 1080px;
+    margin: 100px 0 30px 0;
+}
+
+article.body article.dn div.dn_title {
+    width: 900px;
+    min-height: 120px;
+    margin: 0 auto;
+}
+
+article.body article.dn div.dn_title p {
+    font-family: 'Roboto-Black';
+    font-size: 98px;
+    text-align: center;
+    font-weight: bold;
+    color: #262626;
+}
+
+article.body article.dn div.dn_text {
+    width: 760px;
+    min-height: 120px;
+    margin: 20px auto;
+}
+
+article.body article.dn div.dn_text p {
+    font-size: 22px;
+    text-align: justify;
+    color: #262626;
+}
+
+/*Thong tin*/
+article.body article.dn div.dn_thongtin {
+    position: absolute;
+    width: 760px;
+    height: 979px;
+    margin: 0 571.5px;
+}
+
+article.body article.dn div.dn_img div.dn_thongtin p {
+    position: relative;
+    text-align: right;
+    font-size: 18px;
+    color: #B5B5B5;
+    top: 0;
+}
+
+article.body article.dn div.dn_img {
+    width: 1903px;
+    height: 979px;
+    margin: 50px 0;
+}
+
+/*Tiep tuc dan nhap*/
+article.body article.dn div.dn_name {
+    width: 760px;
+    min-height: 10px;
+    margin: 20px auto;
+}
+
+article.body article.dn div.dn_name p {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #262626;
+}
+
+/*Ket thuc phan dan nhap*/
+
+/*Phan ba mien Viet Nam*/
+article.bactrungnam {
+    width: 1903px;
+    min-height: 979px;
+    padding-bottom: 100px;
+}
+
+article.bactrungnam div.bactrungnam_title {
+    width: 1903px;
+    height: 150px;
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+article.bactrungnam div.bactrungnam_title p {
+    font-size: 98px;
+    font-family: 'Roboto-Black';
+}
+
+article.bactrungnam div.bando {
+    float: left;
+    position: relative;
+    width: 614.3333px;
+    min-height: 753.5px;
+    overflow: hidden;
+    margin: 0 10px;
+    padding: 20px 0;
+}
+
+article.bactrungnam div.bando div.bando_mien, article.bactrungnam div.bando div.bando_vung {
+    position: absolute;
+    width: 614.3333px;
+    min-height: 979px;
+    overflow: hidden;
+    top: 72px;
+    left: 0;
+    opacity: 0;
+}
+
+article.bactrungnam div.bando img {
+    width: 1280px;
+}
+
+article.bactrungnam div.diadiem, article.bactrungnam div.thongtin {
+    position: relative;
+    float: left;
+    width: 614.3333px;
+    min-height: 753.5px;
+    margin: 0 10px;
+    padding: 20px 0;
+}
+
+/*Chu o dau*/
+article.bactrungnam div.bando div.bando_text, article.bactrungnam div.diadiem div.diadiem_text, article.bactrungnam div.thongtin div.thongtin_text {
+    width: 574.328px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+/*Dia diem*/
+article.bactrungnam div.diadiem div.diadiem_mien {
+    position: relative;
+    height: 82px;
+    width: 574.328px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+article.bactrungnam div.diadiem div.diadiem_mien div.vung {
+    position: absolute;
+    height: 22px;
+}
+
+article.bactrungnam div.diadiem div.diadiem_mien p#header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+article.bactrungnam div.diadiem div.diadiem_mien p#mien span {
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+article.bactrungnam div.diadiem div.diadiem_mien p#mien span:hover {
+    color: #FCD700;
+}
+
+article.bactrungnam div.diadiem div.diadiem_mien p#mien span:visited {
+    color: #FCD700;
+}
+
+article.bactrungnam div.diadiem div.diadiem_mien div.vung span {
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+article.bactrungnam div.diadiem div.diadiem_mien div.vung span:hover {
+    color: #FCD700;
+}
+
+/*Dia diem vung*/
+article.bactrungnam div.diadiem div.diadiem_vung {
+    position: absolute;
+    width: 574.328px;
+    min-height: 19px;
+    padding: 20px;
+}
+
+article.bactrungnam div.diadiem div.diadiem_vung span {
+    display: inline-block;
+    cursor: pointer;
+    width: 125px;
+    transition: all 0.4s;
+}
+
+article.bactrungnam div.diadiem div.diadiem_vung span:hover {
+    color: #FCD700;
+}
+
+
+/*Ban do vung*/
+article.bactrungnam div.diadiem div.diadiem_bando_vung {
+    position: relative;
+    height: 600px;
+    width: 574.328px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+article.bactrungnam div.diadiem div.diadiem_bando_vung img {
+    position: absolute;
+    height: 600px;
+    width: 574.328px;
+    top: 100px;
+    opacity: 0;
+    z-index: 0;
+}
+
+
+/*Thong tin*/
+article.bactrungnam div.thongtin div.cactinh {
+    position: relative;
+    width: 574.328px;
+    min-height: 640px;
+    padding: 20px;
+}
+
+article.bactrungnam div.thongtin div.cactinh div.tinh_tbb {
+    position: absolute;
+    width: 574.328px;
+    height: 700px;
+    opacity: 0;
+}
+
+/*Dia hinh*/
+article.bactrungnam div.thongtin div.cactinh div.tinh_tbb div.diahinh {
+    width: 574.328px;
+    height: 200px;
+}
+
+/*Name*/
+article.bactrungnam div.thongtin div.cactinh div.tinh_tbb div.thongtin_name {
+    width: 574.328;
+    height: 66px;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/*Hinh anh*/
+article.bactrungnam div.thongtin div.cactinh div.tinh_tbb div.img {
+    width: 574.328px;
+    height: 180px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+article.bactrungnam div.thongtin div.cactinh div.tinh_tbb div.img img {
+    width: 180px;
+    height: 180px;
+}
+
+/*thongke*/
+article.bactrungnam div.thongtin div.cactinh div.tinh_tbb div.thongke {
+    width: 574.328px;
+    height: 109.66px;
+}
+
+
+
+/*Lich su*/
+
+article.bactrungnam div.thongtin div.cactinh div.tinh_tbb div.ls {
+    width: 574.328px;
+    height: 97px;
+}
+
+article.bactrungnam div.thongtin div.cactinh div.tinh_tbb div.ls p:last-child {
+    color: gray;
+    text-align: justify;
+}
+
+article.bactrungnam div.thongtin div.cactinh div.tinh_tbb div.link a {
+    color: #262626;
+    transition: all 0.4s;
+}
+
+article.bactrungnam div.thongtin div.cactinh div.tinh_tbb div.link a:hover {
+    color: #FCD700;
+}
+/*Ket thuc phan ba mien Viet Nam*/
+/*Ket thuc phan body*/

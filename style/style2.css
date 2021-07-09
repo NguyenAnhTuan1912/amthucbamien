@@ -1,0 +1,305 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url(../fonts/Franklin-Gothic-Heavy-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+article.main {
+    background-image: url(../images/Banner/Tthree_egg.jpg);
+}
+
+article.vstthree a, article.vstthree p, article.vstthree span, article.vstthree li {
+    font-family: 'Roboto-Regular';
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    background-color: #262626;
+    font-family: 'Franklin Gothic';
+}
+
+/**Top 3 mon ngon nhat**/
+article.tthree_ti {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+article.tthree_ti div#title {
+    position: relative;
+    margin-top: 50vh;
+    left: 100px;
+    color: white;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 10;
+}
+
+article.tthree_ti div#title p {
+    font-family: 'Roboto-Black';
+}
+
+article.tthree_ti div#title p:first-child {
+    font-size: 200px;
+    color: #FCD700;
+    margin-bottom: -30px;
+}
+
+article.tthree_ti div#grabanner img#banner {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    top: 0;
+}
+
+/**div#leline {
+    background-color: white;
+    height: 180px;
+    width: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    float: left;
+    left: 659px;
+    top: 799px;
+    position: absolute;
+}**/
+
+/**Ket thuc Top 3 mon ngon nhat**/
+
+/**Bat dau phan dan nhap**/
+
+
+/**Ket thuc phan dan nhap**/
+
+
+article.vstthree {
+    min-height: 100%;
+    width: 1903px;
+    position: relative;
+    z-index: 2;
+    background-color: rgb(241, 241, 241);
+}
+
+/**Bat dau phan DAN NHAP**/
+article.vstthree article.bdthree {
+    margin: 0 auto;
+    height: 100%;
+    width: 1003px;
+}
+
+article.vstthree article.bdthree div.ava {
+    height: 220px;
+    width: 1003px;
+    padding-top: 78px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #262626;
+}
+
+article.vstthree article.bdthree div.ava div#img {
+    height: 186px;
+    width: 186px;
+    border-radius: 186px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    overflow: hidden;
+}
+
+article.vstthree article.bdthree div.ava div#img img {
+    height: 186px;
+    width: 186px;
+}
+
+article.vstthree article.bdthree div.ava div#intro {
+    float: left;
+    margin-top: 42px;
+    margin-left: 23px;
+}
+
+article.vstthree article.bdthree div.ava p#name {
+    color: #262626;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+article.vstthree article.bdthree div.ava p#vtro {
+    color: grey;
+    font-style: italic;
+    font-size: 18px;
+}
+
+article.vstthree article.bdthree div.dannhap {
+    margin-top: 50px;
+}
+
+
+article.vstthree article.bdthree div.dannhap p#bg1 {
+    color: #262626;
+    font-weight: bold;
+    font-size: 72px;
+    margin-bottom: 14px;
+}
+
+article.vstthree article.bdthree div.dannhap div#dnline {
+    margin: 28px 0 28px 0;
+    height: 1px;
+    width: 320px;
+    background-color: #262626;
+}
+
+article.vstthree article.bdthree div.dannhap p#bg2, article.vstthree article.bdthree div.dannhap p#bg3 {
+    color: #353535;
+    font-size: 32px;
+    text-align: justify;
+}
+
+article.vstthree article.bdthree div.dannhap p#bg3 span {
+    color: #262626;
+    font-size: 40px;
+    font-weight: bold;
+}
+/**Ket thuc phan DAN NHAP**/
+
+
+
+/**Bat dau phan TOP3 mon an**/
+article.vstthree article.bdthree > p#tp {
+    font-size: 150px;
+    font-weight: bold;
+    color: #262626;
+    margin: 200px 0 14px 0;
+}
+
+article.vstthree article.bdthree > p#ct {
+    font-size: 20px;
+    font-style: italic;
+    color: gray;
+    margin: 0 0 28px 0;
+    text-align: justify;
+}
+
+article.vstthree article.bdthree div.three {
+    width: 1003px;
+    min-height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+article.vstthree article.bdthree div.three div#img {
+    max-width: 428px;
+    max-height: 428px;
+    border: 1px solid #262626;
+    float: left;
+    overflow: hidden;
+}
+
+article.vstthree article.bdthree div.three div#img img {
+    width: 428px;
+    height: 428px;
+    transition: all 0.8s;
+}
+
+article.vstthree article.bdthree div.three div#img img:hover {
+    transform: scale(1.1);
+}
+
+article.vstthree article.bdthree div.three div#ti {
+    float: left;
+    margin: 28px 49px 20px 44px;
+    width: 480px;
+    height: 283px;
+}
+
+article.vstthree article.bdthree div.three div#ti p#name {
+    color: #262626;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #262626;
+}
+
+article.vstthree article.bdthree div.three div#ti p#gthieu {
+    clear: both;
+    margin-top: 28px;
+    font-size: 20px;
+    color: #353535;
+    text-align: justify;
+}
+
+article.vstthree article.bdthree div.three div.lk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 71px;
+    margin: 28px 49px 0 44px;
+    float: left;
+    color: #262626;
+    width: 480px;
+}
+
+article.vstthree article.bdthree div.three div.lk p {
+    display: inline-block;
+    font-size: 18px;
+    font-style: italic;
+}
+
+article.vstthree article.bdthree div.three div.lk a {
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    width: 100px;
+    line-height: 32px;
+    height: 32px;
+    color: #262626;
+    text-align: center;
+    border: 1px solid #262626;
+    font-weight: bold;
+    margin-left: 125px;
+    background-color: #FCD700;
+    transition: all 0.4s;
+    float: right;
+}
+
+article.vstthree article.bdthree div.three div.lk a:hover {
+    background-color: #262626;
+    color: white;
+    z-index: 2;
+}
+
+/**Ket thuc phan TOP3 mon an**/
